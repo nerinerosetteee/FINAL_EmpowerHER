@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Many types of programs use Undo functions, including 
+word processors, image editors, email clients, and some 
+file-management programs. It’s an almost universal feature 
+in computer software. Once you become used to how Undo 
+works, you won’t need to worry about losing work due to 
+simple mistakes.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Some operating systems hide file extensions by default to 
+reduce clutter. It is possible to show the file extensions if 
+they're hidden. Click the links below to see how to show 
+file extensions in Windows and macOS:</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Your computer has many different types of files on it, and 
+each one has its own file extension. A file extension is a 
+three- or four-letter identifier found at the end of a file 
+name and following a period. These extensions tell you 
+about the characteristics of a file and its use. In this lesson, 
+we'll go over some examples of these extensions, as well 
+as how to determine a particular file's extension.</value>
+  </data>
+</root>
