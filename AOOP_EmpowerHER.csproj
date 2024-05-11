@@ -236,6 +236,9 @@
     <EmbeddedResource Include="IN_3.resx">
       <DependentUpon>IN_3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IN_4.resx">
+      <DependentUpon>IN_4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="IN_7.resx">
       <DependentUpon>IN_7.cs</DependentUpon>
     </EmbeddedResource>
