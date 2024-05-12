@@ -573,7 +573,7 @@
             this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(143)))), ((int)(((byte)(171)))));
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(752, 4817);
+            this.panel2.Size = new System.Drawing.Size(745, 4817);
             this.panel2.TabIndex = 3;
             // 
             // panel3

@@ -14207,6 +14207,14 @@ the pointer over an item and clicking a button.</value>
         SUVORK5CYII=
 </value>
   </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>A computer is more than just another household appliance. 
+The vast amount of information and possibilities can be 
+overwhelming. But you can accomplish a lot with a computer, 
+and using one can be a good experience. Let's walk through 
+getting started with your first computer.
+</value>
+  </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Once the computer has booted up, it may be 
 ready to use, or it may require you to log in. 
@@ -15204,14 +15212,6 @@ booting process.</value>
         eG1C8fsyDQAG74zX2/h5+34aLuNZhyVR/vtbRRYGgw6KC38Cj0D/AP/EABcRAQEBAQAAAAAAAAAAAAAA
         AAFQQJD/2gAIAQIBAT8AysZjMZjMZjMZjMZjMZjMZjMZjMZjMZjPOP8A/8QAFBEBAAAAAAAAAAAAAAAA
         AAAAoP/aAAgBAwEBPwA+H//Z
-</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>A computer is more than just another household appliance. 
-The vast amount of information and possibilities can be 
-overwhelming. But you can accomplish a lot with a computer, 
-and using one can be a good experience. Let's walk through 
-getting started with your first computer.
 </value>
   </data>
 </root>
