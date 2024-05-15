@@ -47,3 +47,5 @@ C:\Users\nicole\Source\Repos\NewRepo2\bin\Debug\AOOP_EmpowerHER.pdb
 C:\Users\nicole\Source\Repos\NewRepo2\bin\Debug\Guna.UI2.dll
 C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_Emp.F10F164A.Up2Date
 C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_4.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_5.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_6.resources

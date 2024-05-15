@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace AOOP_EmpowerHER
 {
@@ -15,6 +16,11 @@ namespace AOOP_EmpowerHER
         public IN_7()
         {
             InitializeComponent();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://youtu.be/7RlB1CJovTs?si=ak1SbIwM4UZxrLVz");
         }
     }
 }
