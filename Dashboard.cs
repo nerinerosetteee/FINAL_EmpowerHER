@@ -25,8 +25,7 @@ namespace AOOP_EmpowerHER
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            BasicComputerSkills fr2 = new BasicComputerSkills();
-            fr2.ShowDialog(); 
+            
         }
 
 
