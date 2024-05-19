@@ -100,3 +100,26 @@ C:\Users\drich\Source\Repos\FINAL_EmpowerHER\bin\Debug\Guna.UI2.dll
 C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Student_Quizcs.resources
 C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_Emp.F10F164A.Up2Date
 >>>>>>> 5d5ea0f2a88de1367a1d16e0020fb6c2b244d610
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.csproj.AssemblyReference.cache
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.exe
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.pdb
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.admin_Main.resources
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Admin_UC.UC_AddNewQuestionscs.resources
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Admin_UC.UC_UpdateQuestions.resources
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Admin_UC.UC_View_Delete.resources
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Dashboard.resources
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.ForgotPass.resources
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.LoginForm.resources
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Properties.Resources.resources
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.register.resources
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.SplashForm.resources
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Student_Quizcs.resources
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Student_UC.Quiz.resources
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.VerifiedEmail.resources
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.csproj.GenerateResource.cache
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.csproj.CoreCompileInputs.cache
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\bin\Debug\AOOP_EmpowerHER.exe.config
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\bin\Debug\AOOP_EmpowerHER.exe
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\bin\Debug\AOOP_EmpowerHER.pdb
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\bin\Debug\Guna.UI2.dll
+C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_Emp.F10F164A.Up2Date

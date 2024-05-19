@@ -91,57 +91,6 @@
     <Compile Include="Admin_UC\UC_View_Delete.Designer.cs">
       <DependentUpon>UC_View_Delete.cs</DependentUpon>
     </Compile>
-    <Compile Include="BasicComputerSkills.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BasicComputerSkills.Designer.cs">
-      <DependentUpon>BasicComputerSkills.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BCS_1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BCS_2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BCS_2.Designer.cs">
-      <DependentUpon>BCS_2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BCS_3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BCS_3.Designer.cs">
-      <DependentUpon>BCS_3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BCS_4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BCS_4.Designer.cs">
-      <DependentUpon>BCS_4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BCS_5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BCS_5.Designer.cs">
-      <DependentUpon>BCS_5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BCS_6.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BCS_6.Designer.cs">
-      <DependentUpon>BCS_6.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BCS_7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BCS_7.Designer.cs">
-      <DependentUpon>BCS_7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BCS_8.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BCS_8.Designer.cs">
-      <DependentUpon>BCS_8.cs</DependentUpon>
-    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,9 +101,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EmpowerHERDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="BCS_1.Designer.cs">
-      <DependentUpon>BCS_1.cs</DependentUpon>
     </Compile>
     <Compile Include="DbConnect.cs" />
     <Compile Include="EmpowerHERDataSet.Designer.cs">
@@ -169,42 +115,6 @@
       <DependentUpon>ForgotPass.cs</DependentUpon>
     </Compile>
     <Compile Include="HashP.cs" />
-    <Compile Include="InternetNavigation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InternetNavigation.Designer.cs">
-      <DependentUpon>InternetNavigation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IN_1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IN_1.Designer.cs">
-      <DependentUpon>IN_1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IN_2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IN_2.Designer.cs">
-      <DependentUpon>IN_2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IN_3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IN_3.Designer.cs">
-      <DependentUpon>IN_3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IN_4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IN_4.Designer.cs">
-      <DependentUpon>IN_4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IN_7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IN_7.Designer.cs">
-      <DependentUpon>IN_7.cs</DependentUpon>
-    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -255,56 +165,11 @@
     <EmbeddedResource Include="Admin_UC\UC_View_Delete.resx">
       <DependentUpon>UC_View_Delete.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BasicComputerSkills.resx">
-      <DependentUpon>BasicComputerSkills.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BCS_1.resx">
-      <DependentUpon>BCS_1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BCS_2.resx">
-      <DependentUpon>BCS_2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BCS_3.resx">
-      <DependentUpon>BCS_3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BCS_4.resx">
-      <DependentUpon>BCS_4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BCS_5.resx">
-      <DependentUpon>BCS_5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BCS_6.resx">
-      <DependentUpon>BCS_6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BCS_7.resx">
-      <DependentUpon>BCS_7.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BCS_8.resx">
-      <DependentUpon>BCS_8.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ForgotPass.resx">
       <DependentUpon>ForgotPass.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InternetNavigation.resx">
-      <DependentUpon>InternetNavigation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IN_1.resx">
-      <DependentUpon>IN_1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IN_2.resx">
-      <DependentUpon>IN_2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IN_3.resx">
-      <DependentUpon>IN_3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IN_4.resx">
-      <DependentUpon>IN_4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IN_7.resx">
-      <DependentUpon>IN_7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -364,15 +229,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Untitled design1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="EmpowerHER.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="EmpowerHER_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>EmpowerHER.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
