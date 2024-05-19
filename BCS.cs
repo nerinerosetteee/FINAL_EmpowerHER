@@ -70,5 +70,12 @@ namespace AOOP_EmpowerHER
             uC_BCS_71.Visible = true;
             uC_BCS_71.BringToFront();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            BCS_LIST bcs = new BCS_LIST();
+            bcs.Show();
+        }
     }
 }

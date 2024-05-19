@@ -17,109 +17,57 @@ C:\Users\nicole\Source\Repos\AOOP_EmpowerHER2\obj\Debug\AOOP_EmpowerHER.pdb
 C:\Users\nicole\Source\Repos\AOOP_EmpowerHER2\obj\Debug\AOOP_EmpowerHER.BasicComputerSkills.resources
 C:\Users\nicole\Source\Repos\AOOP_EmpowerHER2\obj\Debug\AOOP_EmpowerHER.BCS_2.resources
 C:\Users\nicole\Source\Repos\AOOP_EmpowerHER2\obj\Debug\AOOP_EmpowerHER.Dashboard.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.csproj.AssemblyReference.cache
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.BCS_8.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Dashboard.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_1.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_2.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_3.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_7.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.LoginForm.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Properties.Resources.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.register.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.SplashForm.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.csproj.GenerateResource.cache
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.csproj.CoreCompileInputs.cache
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.exe
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.pdb
-C:\Users\nicole\Source\Repos\NewRepo2\bin\Debug\AOOP_EmpowerHER.exe.config
-C:\Users\nicole\Source\Repos\NewRepo2\bin\Debug\AOOP_EmpowerHER.exe
-C:\Users\nicole\Source\Repos\NewRepo2\bin\Debug\AOOP_EmpowerHER.pdb
-C:\Users\nicole\Source\Repos\NewRepo2\bin\Debug\Guna.UI2.dll
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_Emp.F10F164A.Up2Date
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_4.resources
-<<<<<<< HEAD
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_5.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_6.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.BCS.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_8.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_BCS.UC_BCS_1.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_BCS.UC_BCS_2.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_BCS.UC_BCS_3.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_BCS.UC_BCS_4.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_BCS.UC_BCS_5.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_BCS.UC_BCS_6.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_BCS.UC_BCS_7.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_1.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_2.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_3.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_4.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_5.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_6.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_7.resources
-=======
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.csproj.AssemblyReference.cache
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Admin_UC.UC_AddNewQuestionscs.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Admin_UC.UC_UpdateQuestions.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Admin_UC.UC_View_Delete.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.BasicComputerSkills.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.BCS_1.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.BCS_2.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.BCS_3.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.BCS_4.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.BCS_5.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.BCS_6.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.BCS_7.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.BCS_8.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Dashboard.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.ForgotPass.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Internet_Navigation.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.IN_1.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.IN_2.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.IN_3.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.IN_4.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.IN_7.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.LoginForm.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Properties.Resources.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.register.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.SplashForm.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Student_UC.Quiz.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.VerifiedEmail.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.csproj.GenerateResource.cache
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.csproj.CoreCompileInputs.cache
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.exe
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.pdb
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.admin_Main.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\bin\Debug\EmpowerHER.mdf
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\bin\Debug\EmpowerHER_log.ldf
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\bin\Debug\AOOP_EmpowerHER.exe.config
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\bin\Debug\AOOP_EmpowerHER.exe
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\bin\Debug\AOOP_EmpowerHER.pdb
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\bin\Debug\Guna.UI2.dll
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Student_Quizcs.resources
-C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_Emp.F10F164A.Up2Date
->>>>>>> 5d5ea0f2a88de1367a1d16e0020fb6c2b244d610
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.csproj.AssemblyReference.cache
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.exe
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.pdb
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.admin_Main.resources
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Admin_UC.UC_AddNewQuestionscs.resources
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Admin_UC.UC_UpdateQuestions.resources
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Admin_UC.UC_View_Delete.resources
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Dashboard.resources
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.ForgotPass.resources
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.LoginForm.resources
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Properties.Resources.resources
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.register.resources
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.SplashForm.resources
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Student_Quizcs.resources
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Student_UC.Quiz.resources
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.VerifiedEmail.resources
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.csproj.GenerateResource.cache
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.csproj.CoreCompileInputs.cache
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\bin\Debug\AOOP_EmpowerHER.exe.config
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\bin\Debug\AOOP_EmpowerHER.exe
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\bin\Debug\AOOP_EmpowerHER.pdb
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\bin\Debug\Guna.UI2.dll
-C:\Users\Sean Kyron\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_Emp.F10F164A.Up2Date
+C:\Users\User\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.exe
+C:\Users\User\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.pdb
+C:\Users\User\Source\Repos\NewRepo2\bin\Debug\AOOP_EmpowerHER.exe.config
+C:\Users\User\Source\Repos\NewRepo2\bin\Debug\AOOP_EmpowerHER.exe
+C:\Users\User\Source\Repos\NewRepo2\bin\Debug\AOOP_EmpowerHER.pdb
+C:\Users\User\Source\Repos\NewRepo2\bin\Debug\Guna.UI2.dll
+C:\Users\User\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Dashboard.resources
+C:\Users\User\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.LoginForm.resources
+C:\Users\User\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Properties.Resources.resources
+C:\Users\User\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.register.resources
+C:\Users\User\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.SplashForm.resources
+C:\Users\User\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\NewRepo2\obj\Debug\AOOP_Emp.F10F164A.Up2Date
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.W1.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.E1.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.E2.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.E3.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.EmB2.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.EmB1.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.EmB3.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.G1.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.G2.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.G3.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.PPT1.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.PPT2.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.PPT3.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.W2.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.W3.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Excel_Module_UC.UC_Excel_1.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Excel_Module_UC.UC_Excel_2.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Excel_Module_UC.UC_Excel_3.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Email_Module_UC.UC_Email_1.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Email_Module_UC.UC_Email_2.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Email_Module_UC.UC_Email_3.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Gmail_Module_UC.UC_Gmail_1.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Gmail_Module_UC.UC_Gmail_2.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Gmail_Module_UC.UC_Gmail_3.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.PPT_Module_UC.UC_PPT_1.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.PPT_Module_UC.UC_PPT_2.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.PPT_Module_UC.UC_PPT_3.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Word_Module_UC.UC_Word_1.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Word_Module_UC.UC_Word_2.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Word_Module_UC.UC_Word_3.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.EMAIL.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.EXCEL.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.GMAIL.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.POWERPOINT.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.WORD.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Student_Quizcs.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Quiz.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.ForgotPass.resources
+C:\Users\User\source\repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.VerifiedEmail.resources
