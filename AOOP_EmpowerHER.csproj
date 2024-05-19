@@ -67,17 +67,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BCS.cs">
+    <Compile Include="admin_Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BCS.Designer.cs">
-      <DependentUpon>BCS.cs</DependentUpon>
+    <Compile Include="admin_Main.Designer.cs">
+      <DependentUpon>admin_Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="BCS_LIST.cs">
+    <Compile Include="Admin_UC\UC_AddNewQuestionscs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin_UC\UC_AddNewQuestionscs.Designer.cs">
+      <DependentUpon>UC_AddNewQuestionscs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_UC\UC_UpdateQuestions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin_UC\UC_UpdateQuestions.Designer.cs">
+      <DependentUpon>UC_UpdateQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_UC\UC_View_Delete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin_UC\UC_View_Delete.Designer.cs">
+      <DependentUpon>UC_View_Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicComputerSkills.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BCS_LIST.Designer.cs">
-      <DependentUpon>BCS_LIST.cs</DependentUpon>
+    <Compile Include="BasicComputerSkills.Designer.cs">
+      <DependentUpon>BasicComputerSkills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BCS_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCS_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCS_2.Designer.cs">
+      <DependentUpon>BCS_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BCS_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCS_3.Designer.cs">
+      <DependentUpon>BCS_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BCS_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCS_4.Designer.cs">
+      <DependentUpon>BCS_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BCS_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCS_5.Designer.cs">
+      <DependentUpon>BCS_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BCS_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCS_6.Designer.cs">
+      <DependentUpon>BCS_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BCS_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCS_7.Designer.cs">
+      <DependentUpon>BCS_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BCS_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCS_8.Designer.cs">
+      <DependentUpon>BCS_8.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
@@ -90,23 +153,57 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmpowerHERDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BCS_1.Designer.cs">
+      <DependentUpon>BCS_1.cs</DependentUpon>
+    </Compile>
     <Compile Include="DbConnect.cs" />
     <Compile Include="EmpowerHERDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EmpowerHERDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="IN.cs">
+    <Compile Include="ForgotPass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IN.Designer.cs">
-      <DependentUpon>IN.cs</DependentUpon>
+    <Compile Include="ForgotPass.Designer.cs">
+      <DependentUpon>ForgotPass.cs</DependentUpon>
     </Compile>
-    <Compile Include="IN_LIST.cs">
+    <Compile Include="HashP.cs" />
+    <Compile Include="InternetNavigation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IN_LIST.Designer.cs">
-      <DependentUpon>IN_LIST.cs</DependentUpon>
+    <Compile Include="InternetNavigation.Designer.cs">
+      <DependentUpon>InternetNavigation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IN_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IN_1.Designer.cs">
+      <DependentUpon>IN_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IN_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IN_2.Designer.cs">
+      <DependentUpon>IN_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IN_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IN_3.Designer.cs">
+      <DependentUpon>IN_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IN_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IN_4.Designer.cs">
+      <DependentUpon>IN_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IN_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IN_7.Designer.cs">
+      <DependentUpon>IN_7.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -128,104 +225,86 @@
     <Compile Include="SplashForm.Designer.cs">
       <DependentUpon>SplashForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UC_BCS\UC_BCS_1.cs">
+    <Compile Include="Student_Quizcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Quizcs.Designer.cs">
+      <DependentUpon>Student_Quizcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_UC\Quiz.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UC_BCS\UC_BCS_1.Designer.cs">
-      <DependentUpon>UC_BCS_1.cs</DependentUpon>
+    <Compile Include="Student_UC\Quiz.Designer.cs">
+      <DependentUpon>Quiz.cs</DependentUpon>
     </Compile>
-    <Compile Include="UC_BCS\UC_BCS_2.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="VerifiedEmail.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UC_BCS\UC_BCS_2.Designer.cs">
-      <DependentUpon>UC_BCS_2.cs</DependentUpon>
+    <Compile Include="VerifiedEmail.Designer.cs">
+      <DependentUpon>VerifiedEmail.cs</DependentUpon>
     </Compile>
-    <Compile Include="UC_BCS\UC_BCS_3.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_BCS\UC_BCS_3.Designer.cs">
-      <DependentUpon>UC_BCS_3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_BCS\UC_BCS_4.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_BCS\UC_BCS_4.Designer.cs">
-      <DependentUpon>UC_BCS_4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_BCS\UC_BCS_5.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_BCS\UC_BCS_5.Designer.cs">
-      <DependentUpon>UC_BCS_5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_BCS\UC_BCS_6.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_BCS\UC_BCS_6.Designer.cs">
-      <DependentUpon>UC_BCS_6.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_BCS\UC_BCS_7.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_BCS\UC_BCS_7.Designer.cs">
-      <DependentUpon>UC_BCS_7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_1.Designer.cs">
-      <DependentUpon>UC_IN_1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_2.Designer.cs">
-      <DependentUpon>UC_IN_2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_3.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_3.Designer.cs">
-      <DependentUpon>UC_IN_3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_4.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_4.Designer.cs">
-      <DependentUpon>UC_IN_4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_5.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_5.Designer.cs">
-      <DependentUpon>UC_IN_5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_6.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_6.Designer.cs">
-      <DependentUpon>UC_IN_6.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_7.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_IN\UC_IN_7.Designer.cs">
-      <DependentUpon>UC_IN_7.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="BCS.resx">
-      <DependentUpon>BCS.cs</DependentUpon>
+    <EmbeddedResource Include="admin_Main.resx">
+      <DependentUpon>admin_Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BCS_LIST.resx">
-      <DependentUpon>BCS_LIST.cs</DependentUpon>
+    <EmbeddedResource Include="Admin_UC\UC_AddNewQuestionscs.resx">
+      <DependentUpon>UC_AddNewQuestionscs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_UC\UC_UpdateQuestions.resx">
+      <DependentUpon>UC_UpdateQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_UC\UC_View_Delete.resx">
+      <DependentUpon>UC_View_Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicComputerSkills.resx">
+      <DependentUpon>BasicComputerSkills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCS_1.resx">
+      <DependentUpon>BCS_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCS_2.resx">
+      <DependentUpon>BCS_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCS_3.resx">
+      <DependentUpon>BCS_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCS_4.resx">
+      <DependentUpon>BCS_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCS_5.resx">
+      <DependentUpon>BCS_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCS_6.resx">
+      <DependentUpon>BCS_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCS_7.resx">
+      <DependentUpon>BCS_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCS_8.resx">
+      <DependentUpon>BCS_8.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IN.resx">
-      <DependentUpon>IN.cs</DependentUpon>
+    <EmbeddedResource Include="ForgotPass.resx">
+      <DependentUpon>ForgotPass.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IN_LIST.resx">
-      <DependentUpon>IN_LIST.cs</DependentUpon>
+    <EmbeddedResource Include="InternetNavigation.resx">
+      <DependentUpon>InternetNavigation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IN_1.resx">
+      <DependentUpon>IN_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IN_2.resx">
+      <DependentUpon>IN_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IN_3.resx">
+      <DependentUpon>IN_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IN_4.resx">
+      <DependentUpon>IN_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IN_7.resx">
+      <DependentUpon>IN_7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -246,47 +325,14 @@
     <EmbeddedResource Include="SplashForm.resx">
       <DependentUpon>SplashForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UC_BCS\UC_BCS_1.resx">
-      <DependentUpon>UC_BCS_1.cs</DependentUpon>
+    <EmbeddedResource Include="Student_Quizcs.resx">
+      <DependentUpon>Student_Quizcs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UC_BCS\UC_BCS_2.resx">
-      <DependentUpon>UC_BCS_2.cs</DependentUpon>
+    <EmbeddedResource Include="Student_UC\Quiz.resx">
+      <DependentUpon>Quiz.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UC_BCS\UC_BCS_3.resx">
-      <DependentUpon>UC_BCS_3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_BCS\UC_BCS_4.resx">
-      <DependentUpon>UC_BCS_4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_BCS\UC_BCS_5.resx">
-      <DependentUpon>UC_BCS_5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_BCS\UC_BCS_6.resx">
-      <DependentUpon>UC_BCS_6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_BCS\UC_BCS_7.resx">
-      <DependentUpon>UC_BCS_7.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_IN\UC_IN_1.resx">
-      <DependentUpon>UC_IN_1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_IN\UC_IN_2.resx">
-      <DependentUpon>UC_IN_2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_IN\UC_IN_3.resx">
-      <DependentUpon>UC_IN_3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_IN\UC_IN_4.resx">
-      <DependentUpon>UC_IN_4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_IN\UC_IN_5.resx">
-      <DependentUpon>UC_IN_5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_IN\UC_IN_6.resx">
-      <DependentUpon>UC_IN_6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_IN\UC_IN_7.resx">
-      <DependentUpon>UC_IN_7.cs</DependentUpon>
+    <EmbeddedResource Include="VerifiedEmail.resx">
+      <DependentUpon>VerifiedEmail.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="EmpowerHERDataSet.xsc">
       <DependentUpon>EmpowerHERDataSet.xsd</DependentUpon>
@@ -319,6 +365,26 @@
   <ItemGroup>
     <None Include="Resources\Untitled design1.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="EmpowerHER.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmpowerHER_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>EmpowerHER.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
