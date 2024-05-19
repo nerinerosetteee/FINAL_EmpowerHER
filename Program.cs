@@ -16,11 +16,9 @@ namespace AOOP_EmpowerHER
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
-            Application.Run(new IN());
-=======
+
             Application.Run(new LoginForm());
->>>>>>> 5d5ea0f2a88de1367a1d16e0020fb6c2b244d610
+
         }
     }
 }
