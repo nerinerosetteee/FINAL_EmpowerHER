@@ -67,6 +67,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_Main.Designer.cs">
+      <DependentUpon>admin_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_UC\UC_AddNewQuestionscs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin_UC\UC_AddNewQuestionscs.Designer.cs">
+      <DependentUpon>UC_AddNewQuestionscs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_UC\UC_UpdateQuestions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin_UC\UC_UpdateQuestions.Designer.cs">
+      <DependentUpon>UC_UpdateQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_UC\UC_View_Delete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin_UC\UC_View_Delete.Designer.cs">
+      <DependentUpon>UC_View_Delete.cs</DependentUpon>
+    </Compile>
     <Compile Include="BasicComputerSkills.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +162,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmpowerHERDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="ForgotPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPass.Designer.cs">
+      <DependentUpon>ForgotPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HashP.cs" />
     <Compile Include="InternetNavigation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +225,36 @@
     <Compile Include="SplashForm.Designer.cs">
       <DependentUpon>SplashForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Student_Quizcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Quizcs.Designer.cs">
+      <DependentUpon>Student_Quizcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_UC\Quiz.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student_UC\Quiz.Designer.cs">
+      <DependentUpon>Quiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerifiedEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerifiedEmail.Designer.cs">
+      <DependentUpon>VerifiedEmail.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="admin_Main.resx">
+      <DependentUpon>admin_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_UC\UC_AddNewQuestionscs.resx">
+      <DependentUpon>UC_AddNewQuestionscs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_UC\UC_UpdateQuestions.resx">
+      <DependentUpon>UC_UpdateQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_UC\UC_View_Delete.resx">
+      <DependentUpon>UC_View_Delete.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BasicComputerSkills.resx">
       <DependentUpon>BasicComputerSkills.cs</DependentUpon>
     </EmbeddedResource>
@@ -223,6 +284,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPass.resx">
+      <DependentUpon>ForgotPass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InternetNavigation.resx">
       <DependentUpon>InternetNavigation.cs</DependentUpon>
@@ -261,6 +325,15 @@
     <EmbeddedResource Include="SplashForm.resx">
       <DependentUpon>SplashForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Student_Quizcs.resx">
+      <DependentUpon>Student_Quizcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_UC\Quiz.resx">
+      <DependentUpon>Quiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerifiedEmail.resx">
+      <DependentUpon>VerifiedEmail.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="EmpowerHERDataSet.xsc">
       <DependentUpon>EmpowerHERDataSet.xsd</DependentUpon>
     </None>
@@ -291,6 +364,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Untitled design1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EmpowerHER.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmpowerHER_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>EmpowerHER.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

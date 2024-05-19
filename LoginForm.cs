@@ -2,19 +2,28 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace AOOP_EmpowerHER
 {
     public partial class LoginForm : Form
     {
+        SqlConnection cn = new SqlConnection();
+        SqlCommand cmd = new SqlCommand();
+        DbConnect dbcon = new DbConnect();
+
         public LoginForm()
         {
             InitializeComponent();
+            cn = new SqlConnection(dbcon.connection());
         }
 
         private void guna2PictureBox1_Click(object sender, EventArgs e)
@@ -54,6 +63,7 @@ namespace AOOP_EmpowerHER
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            Application.Exit();
 
         }
 
@@ -64,7 +74,98 @@ namespace AOOP_EmpowerHER
 
         private void button4_Click(object sender, EventArgs e)
         {
+            register login = new register();
+            login.Show();
+            this.Hide();
+        }
 
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            Password.UseSystemPasswordChar = false;
+        }
+
+        private void guna2ImageButton_MouseUp(object sender, MouseEventArgs e)
+        {
+            Password.UseSystemPasswordChar = true;
+        }
+
+        private void guna2TextBox2_Click(object sender, EventArgs e)
+        {
+            Password.UseSystemPasswordChar = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string username = Username.Text;
+            string user_pass = Password.Text;
+
+            try
+            {
+                string pass_decrypted = HashP.CalculateMD5Hash(Password.Text.Trim());
+
+                cmd = new SqlCommand("SELECT Count(*) From Student where (Username = @useroremail OR Email = @useroremail) AND Password = @password", cn);
+                cmd.Parameters.AddWithValue("@useroremail", username);
+                cmd.Parameters.AddWithValue("@password", pass_decrypted);
+                cn.Open();
+                Int32 count = (Int32)cmd.ExecuteScalar();
+                string countstring = count.ToString();
+                if (count > 0)
+                {
+                    Dashboard dashboard = new Dashboard();
+                    dashboard.Show();
+                    this.Hide();
+                    MessageBox.Show("Account successfully logged in.", "Welcome! " + username, MessageBoxButtons.OK);
+                }
+                else
+                {
+                    MessageBox.Show("Email/Username and Password doesn't macth.", "Invalid Login Details", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Username.Clear();
+                    Password.Clear();
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+                Student_Quizcs quiz = new Student_Quizcs();
+                quiz.Show();
+                this.Hide();
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ForgotPass forpass = new ForgotPass();
+            this.Hide();
+            forpass.Show();
         }
     }
 }
