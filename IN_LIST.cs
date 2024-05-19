@@ -16,5 +16,12 @@ namespace AOOP_EmpowerHER
         {
             InitializeComponent();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Dashboard dshbrd = new Dashboard();
+            dshbrd.Show();
+        }
     }
 }
