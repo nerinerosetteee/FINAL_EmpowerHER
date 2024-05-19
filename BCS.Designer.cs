@@ -91,7 +91,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(88, 197);
+            this.label1.Location = new System.Drawing.Point(99, 204);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(121, 25);
             this.label1.TabIndex = 66;
@@ -109,7 +109,7 @@
             this.guna2Button24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button24.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button24.ForeColor = System.Drawing.Color.White;
-            this.guna2Button24.Location = new System.Drawing.Point(5, 827);
+            this.guna2Button24.Location = new System.Drawing.Point(8, 801);
             this.guna2Button24.Name = "guna2Button24";
             this.guna2Button24.Size = new System.Drawing.Size(316, 60);
             this.guna2Button24.TabIndex = 63;
@@ -120,11 +120,11 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
-            this.label7.Location = new System.Drawing.Point(27, 266);
+            this.label7.Location = new System.Drawing.Point(21, 267);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(220, 60);
+            this.label7.Size = new System.Drawing.Size(289, 30);
             this.label7.TabIndex = 49;
-            this.label7.Text = "Basic Computer \r\nSkills";
+            this.label7.Text = "Basic Computer Skills";
             // 
             // guna2Button8
             // 
@@ -138,7 +138,7 @@
             this.guna2Button8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button8.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button8.ForeColor = System.Drawing.Color.White;
-            this.guna2Button8.Location = new System.Drawing.Point(2, 754);
+            this.guna2Button8.Location = new System.Drawing.Point(5, 728);
             this.guna2Button8.Name = "guna2Button8";
             this.guna2Button8.Size = new System.Drawing.Size(316, 60);
             this.guna2Button8.TabIndex = 23;
@@ -157,7 +157,7 @@
             this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button6.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Location = new System.Drawing.Point(2, 684);
+            this.guna2Button6.Location = new System.Drawing.Point(5, 658);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(316, 60);
             this.guna2Button6.TabIndex = 21;
@@ -176,7 +176,7 @@
             this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button5.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(2, 615);
+            this.guna2Button5.Location = new System.Drawing.Point(5, 589);
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(316, 60);
             this.guna2Button5.TabIndex = 20;
@@ -195,7 +195,7 @@
             this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button4.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(2, 477);
+            this.guna2Button4.Location = new System.Drawing.Point(5, 451);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(316, 60);
             this.guna2Button4.TabIndex = 19;
@@ -214,7 +214,7 @@
             this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button3.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(2, 546);
+            this.guna2Button3.Location = new System.Drawing.Point(5, 520);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(316, 60);
             this.guna2Button3.TabIndex = 18;
@@ -233,7 +233,7 @@
             this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(2, 408);
+            this.guna2Button2.Location = new System.Drawing.Point(5, 382);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(316, 60);
             this.guna2Button2.TabIndex = 17;
@@ -252,7 +252,7 @@
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button1.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(2, 339);
+            this.guna2Button1.Location = new System.Drawing.Point(5, 313);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(316, 60);
             this.guna2Button1.TabIndex = 0;
@@ -305,7 +305,7 @@
             // 
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(77, 35);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(86, 48);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.Size = new System.Drawing.Size(145, 145);
