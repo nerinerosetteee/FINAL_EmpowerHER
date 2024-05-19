@@ -66,12 +66,9 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -82,6 +79,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.Label3 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -117,8 +117,9 @@
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.guna2Button1);
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(281, 1743);
+            this.panel3.Size = new System.Drawing.Size(250, 1394);
             this.panel3.TabIndex = 6;
             // 
             // guna2Button24
@@ -130,9 +131,10 @@
             this.guna2Button24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button24.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button24.ForeColor = System.Drawing.Color.White;
-            this.guna2Button24.Location = new System.Drawing.Point(0, 1666);
+            this.guna2Button24.Location = new System.Drawing.Point(0, 1333);
+            this.guna2Button24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button24.Name = "guna2Button24";
-            this.guna2Button24.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button24.Size = new System.Drawing.Size(250, 55);
             this.guna2Button24.TabIndex = 63;
             this.guna2Button24.Text = "Basic Computer Skills Quiz";
             // 
@@ -145,9 +147,10 @@
             this.guna2Button23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button23.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button23.ForeColor = System.Drawing.Color.White;
-            this.guna2Button23.Location = new System.Drawing.Point(0, 1597);
+            this.guna2Button23.Location = new System.Drawing.Point(0, 1278);
+            this.guna2Button23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button23.Name = "guna2Button23";
-            this.guna2Button23.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button23.Size = new System.Drawing.Size(250, 55);
             this.guna2Button23.TabIndex = 62;
             this.guna2Button23.Text = "Uninstall Software (MAC)";
             // 
@@ -160,9 +163,10 @@
             this.guna2Button22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button22.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button22.ForeColor = System.Drawing.Color.White;
-            this.guna2Button22.Location = new System.Drawing.Point(0, 1528);
+            this.guna2Button22.Location = new System.Drawing.Point(0, 1222);
+            this.guna2Button22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button22.Name = "guna2Button22";
-            this.guna2Button22.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button22.Size = new System.Drawing.Size(250, 55);
             this.guna2Button22.TabIndex = 61;
             this.guna2Button22.Text = "Uninstall Software (Windows)";
             // 
@@ -175,9 +179,10 @@
             this.guna2Button21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button21.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button21.ForeColor = System.Drawing.Color.White;
-            this.guna2Button21.Location = new System.Drawing.Point(0, 1459);
+            this.guna2Button21.Location = new System.Drawing.Point(0, 1167);
+            this.guna2Button21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button21.Name = "guna2Button21";
-            this.guna2Button21.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button21.Size = new System.Drawing.Size(250, 55);
             this.guna2Button21.TabIndex = 60;
             this.guna2Button21.Text = "Install Software (MAC)";
             // 
@@ -190,9 +195,10 @@
             this.guna2Button20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button20.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button20.ForeColor = System.Drawing.Color.White;
-            this.guna2Button20.Location = new System.Drawing.Point(0, 1390);
+            this.guna2Button20.Location = new System.Drawing.Point(0, 1112);
+            this.guna2Button20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button20.Name = "guna2Button20";
-            this.guna2Button20.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button20.Size = new System.Drawing.Size(250, 55);
             this.guna2Button20.TabIndex = 59;
             this.guna2Button20.Text = "Install Software (Windows)";
             // 
@@ -205,9 +211,10 @@
             this.guna2Button19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button19.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button19.ForeColor = System.Drawing.Color.White;
-            this.guna2Button19.Location = new System.Drawing.Point(0, 1252);
+            this.guna2Button19.Location = new System.Drawing.Point(0, 1002);
+            this.guna2Button19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button19.Name = "guna2Button19";
-            this.guna2Button19.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button19.Size = new System.Drawing.Size(250, 55);
             this.guna2Button19.TabIndex = 58;
             this.guna2Button19.Text = "Defragment Hard Drive";
             // 
@@ -220,9 +227,10 @@
             this.guna2Button18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button18.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button18.ForeColor = System.Drawing.Color.White;
-            this.guna2Button18.Location = new System.Drawing.Point(0, 1321);
+            this.guna2Button18.Location = new System.Drawing.Point(0, 1057);
+            this.guna2Button18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button18.Name = "guna2Button18";
-            this.guna2Button18.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button18.Size = new System.Drawing.Size(250, 55);
             this.guna2Button18.TabIndex = 57;
             this.guna2Button18.Text = "Start in Safe Mode";
             // 
@@ -235,9 +243,10 @@
             this.guna2Button17.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button17.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button17.ForeColor = System.Drawing.Color.White;
-            this.guna2Button17.Location = new System.Drawing.Point(0, 1183);
+            this.guna2Button17.Location = new System.Drawing.Point(0, 946);
+            this.guna2Button17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button17.Name = "guna2Button17";
-            this.guna2Button17.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button17.Size = new System.Drawing.Size(250, 55);
             this.guna2Button17.TabIndex = 56;
             this.guna2Button17.Text = "Speeding Up Computer";
             // 
@@ -250,9 +259,10 @@
             this.guna2Button16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button16.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button16.ForeColor = System.Drawing.Color.White;
-            this.guna2Button16.Location = new System.Drawing.Point(0, 1114);
+            this.guna2Button16.Location = new System.Drawing.Point(0, 891);
+            this.guna2Button16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button16.Name = "guna2Button16";
-            this.guna2Button16.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button16.Size = new System.Drawing.Size(250, 55);
             this.guna2Button16.TabIndex = 55;
             this.guna2Button16.Text = "Old Computers";
             // 
@@ -265,9 +275,10 @@
             this.guna2Button15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button15.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button15.ForeColor = System.Drawing.Color.White;
-            this.guna2Button15.Location = new System.Drawing.Point(0, 1045);
+            this.guna2Button15.Location = new System.Drawing.Point(0, 836);
+            this.guna2Button15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button15.Name = "guna2Button15";
-            this.guna2Button15.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button15.Size = new System.Drawing.Size(250, 55);
             this.guna2Button15.TabIndex = 54;
             this.guna2Button15.Text = "Disable Apps on Startup";
             // 
@@ -280,9 +291,10 @@
             this.guna2Button14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button14.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button14.ForeColor = System.Drawing.Color.White;
-            this.guna2Button14.Location = new System.Drawing.Point(0, 976);
+            this.guna2Button14.Location = new System.Drawing.Point(0, 781);
+            this.guna2Button14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button14.Name = "guna2Button14";
-            this.guna2Button14.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button14.Size = new System.Drawing.Size(250, 55);
             this.guna2Button14.TabIndex = 53;
             this.guna2Button14.Text = "Power Cycle Device";
             // 
@@ -295,9 +307,10 @@
             this.guna2Button13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button13.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button13.ForeColor = System.Drawing.Color.White;
-            this.guna2Button13.Location = new System.Drawing.Point(0, 907);
+            this.guna2Button13.Location = new System.Drawing.Point(0, 726);
+            this.guna2Button13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button13.Name = "guna2Button13";
-            this.guna2Button13.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button13.Size = new System.Drawing.Size(250, 55);
             this.guna2Button13.TabIndex = 52;
             this.guna2Button13.Text = "Setup New Printer";
             // 
@@ -310,9 +323,10 @@
             this.guna2Button12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button12.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button12.ForeColor = System.Drawing.Color.White;
-            this.guna2Button12.Location = new System.Drawing.Point(0, 838);
+            this.guna2Button12.Location = new System.Drawing.Point(0, 670);
+            this.guna2Button12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button12.Name = "guna2Button12";
-            this.guna2Button12.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button12.Size = new System.Drawing.Size(250, 55);
             this.guna2Button12.TabIndex = 51;
             this.guna2Button12.Text = "Computer Virus";
             // 
@@ -325,9 +339,10 @@
             this.guna2Button11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button11.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button11.ForeColor = System.Drawing.Color.White;
-            this.guna2Button11.Location = new System.Drawing.Point(0, 769);
+            this.guna2Button11.Location = new System.Drawing.Point(0, 615);
+            this.guna2Button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button11.Name = "guna2Button11";
-            this.guna2Button11.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button11.Size = new System.Drawing.Size(250, 55);
             this.guna2Button11.TabIndex = 50;
             this.guna2Button11.Text = "Desktop Background";
             // 
@@ -336,9 +351,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
-            this.label1.Location = new System.Drawing.Point(18, 10);
+            this.label1.Location = new System.Drawing.Point(16, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(220, 60);
+            this.label1.Size = new System.Drawing.Size(184, 50);
             this.label1.TabIndex = 49;
             this.label1.Text = "Basic Computer \r\nSkills";
             // 
@@ -351,9 +366,10 @@
             this.guna2Button10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button10.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button10.ForeColor = System.Drawing.Color.White;
-            this.guna2Button10.Location = new System.Drawing.Point(0, 700);
+            this.guna2Button10.Location = new System.Drawing.Point(0, 560);
+            this.guna2Button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button10.Size = new System.Drawing.Size(250, 55);
             this.guna2Button10.TabIndex = 25;
             this.guna2Button10.Text = "Update Software";
             // 
@@ -366,9 +382,10 @@
             this.guna2Button9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button9.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button9.ForeColor = System.Drawing.Color.White;
-            this.guna2Button9.Location = new System.Drawing.Point(0, 631);
+            this.guna2Button9.Location = new System.Drawing.Point(0, 505);
+            this.guna2Button9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button9.Size = new System.Drawing.Size(250, 55);
             this.guna2Button9.TabIndex = 24;
             this.guna2Button9.Text = "Setup Wi-Fi Netwrok";
             // 
@@ -381,9 +398,10 @@
             this.guna2Button8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button8.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button8.ForeColor = System.Drawing.Color.White;
-            this.guna2Button8.Location = new System.Drawing.Point(0, 562);
+            this.guna2Button8.Location = new System.Drawing.Point(0, 450);
+            this.guna2Button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button8.Size = new System.Drawing.Size(250, 55);
             this.guna2Button8.TabIndex = 23;
             this.guna2Button8.Text = "PDF File";
             // 
@@ -396,9 +414,10 @@
             this.guna2Button7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button7.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.Location = new System.Drawing.Point(0, 493);
+            this.guna2Button7.Location = new System.Drawing.Point(0, 394);
+            this.guna2Button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button7.Size = new System.Drawing.Size(250, 55);
             this.guna2Button7.TabIndex = 22;
             this.guna2Button7.Text = "Open vs. Closed Source";
             // 
@@ -411,9 +430,10 @@
             this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button6.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Location = new System.Drawing.Point(0, 424);
+            this.guna2Button6.Location = new System.Drawing.Point(0, 339);
+            this.guna2Button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button6.Size = new System.Drawing.Size(250, 55);
             this.guna2Button6.TabIndex = 21;
             this.guna2Button6.Text = "Free Software";
             // 
@@ -426,9 +446,10 @@
             this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button5.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(0, 355);
+            this.guna2Button5.Location = new System.Drawing.Point(0, 284);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button5.Size = new System.Drawing.Size(250, 55);
             this.guna2Button5.TabIndex = 20;
             this.guna2Button5.Text = "Donwloading and Uploading";
             // 
@@ -441,9 +462,10 @@
             this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button4.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(0, 217);
+            this.guna2Button4.Location = new System.Drawing.Point(0, 174);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button4.Size = new System.Drawing.Size(250, 55);
             this.guna2Button4.TabIndex = 19;
             this.guna2Button4.Text = "Undo Mistakes";
             // 
@@ -456,9 +478,10 @@
             this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button3.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(0, 286);
+            this.guna2Button3.Location = new System.Drawing.Point(0, 229);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button3.Size = new System.Drawing.Size(250, 55);
             this.guna2Button3.TabIndex = 18;
             this.guna2Button3.Text = "File Extensions";
             // 
@@ -471,9 +494,10 @@
             this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(0, 148);
+            this.guna2Button2.Location = new System.Drawing.Point(0, 118);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button2.Size = new System.Drawing.Size(250, 55);
             this.guna2Button2.TabIndex = 17;
             this.guna2Button2.Text = "Built-In Help";
             // 
@@ -482,9 +506,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label7.Location = new System.Drawing.Point(17, 11);
+            this.label7.Location = new System.Drawing.Point(15, 9);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(220, 60);
+            this.label7.Size = new System.Drawing.Size(184, 50);
             this.label7.TabIndex = 16;
             this.label7.Text = "Basic Computer \r\nSkills";
             // 
@@ -497,9 +521,10 @@
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button1.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(0, 79);
+            this.guna2Button1.Location = new System.Drawing.Point(0, 63);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(281, 69);
+            this.guna2Button1.Size = new System.Drawing.Size(250, 55);
             this.guna2Button1.TabIndex = 0;
             this.guna2Button1.Text = "Getting Started";
             // 
@@ -532,9 +557,10 @@
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.Label3);
-            this.panel2.Location = new System.Drawing.Point(280, 0);
+            this.panel2.Location = new System.Drawing.Point(249, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(799, 1743);
+            this.panel2.Size = new System.Drawing.Size(710, 1394);
             this.panel2.TabIndex = 7;
             // 
             // label22
@@ -542,9 +568,9 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label22.Location = new System.Drawing.Point(53, 895);
+            this.label22.Location = new System.Drawing.Point(47, 716);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(48, 55);
+            this.label22.Size = new System.Drawing.Size(40, 47);
             this.label22.TabIndex = 63;
             this.label22.Text = "*";
             // 
@@ -553,9 +579,9 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.Black;
-            this.label23.Location = new System.Drawing.Point(100, 895);
+            this.label23.Location = new System.Drawing.Point(89, 716);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(596, 50);
+            this.label23.Size = new System.Drawing.Size(501, 44);
             this.label23.TabIndex = 62;
             this.label23.Text = "An Excel spreadsheet uses the .xlsx extension, or .xls for\r\nolder versions (for e" +
     "xample, budget.xls).";
@@ -565,9 +591,9 @@
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label24.Location = new System.Drawing.Point(53, 828);
+            this.label24.Location = new System.Drawing.Point(47, 662);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(48, 55);
+            this.label24.Size = new System.Drawing.Size(40, 47);
             this.label24.TabIndex = 61;
             this.label24.Text = "*";
             // 
@@ -576,9 +602,9 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.Black;
-            this.label25.Location = new System.Drawing.Point(100, 828);
+            this.label25.Location = new System.Drawing.Point(89, 662);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(617, 50);
+            this.label25.Size = new System.Drawing.Size(519, 44);
             this.label25.TabIndex = 60;
             this.label25.Text = "An MP3 audio file uses the .mp3 extension (for example, \r\nrhyme_rap.mp3).";
             // 
@@ -587,9 +613,9 @@
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Century Schoolbook", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label21.Location = new System.Drawing.Point(31, 667);
+            this.label21.Location = new System.Drawing.Point(28, 534);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(353, 34);
+            this.label21.Size = new System.Drawing.Size(304, 30);
             this.label21.TabIndex = 59;
             this.label21.Text = "Hidden File Extensions";
             // 
@@ -598,9 +624,9 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label19.Location = new System.Drawing.Point(53, 579);
+            this.label19.Location = new System.Drawing.Point(47, 463);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(48, 55);
+            this.label19.Size = new System.Drawing.Size(40, 47);
             this.label19.TabIndex = 58;
             this.label19.Text = "*";
             // 
@@ -609,9 +635,9 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.Black;
-            this.label20.Location = new System.Drawing.Point(100, 579);
+            this.label20.Location = new System.Drawing.Point(89, 463);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(596, 50);
+            this.label20.Size = new System.Drawing.Size(501, 44);
             this.label20.TabIndex = 57;
             this.label20.Text = "An Excel spreadsheet uses the .xlsx extension, or .xls for\r\nolder versions (for e" +
     "xample, budget.xls).";
@@ -621,9 +647,9 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label17.Location = new System.Drawing.Point(53, 512);
+            this.label17.Location = new System.Drawing.Point(47, 410);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(48, 55);
+            this.label17.Size = new System.Drawing.Size(40, 47);
             this.label17.TabIndex = 56;
             this.label17.Text = "*";
             // 
@@ -632,54 +658,32 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(100, 512);
+            this.label18.Location = new System.Drawing.Point(89, 410);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(617, 50);
+            this.label18.Size = new System.Drawing.Size(519, 44);
             this.label18.TabIndex = 55;
             this.label18.Text = "An MP3 audio file uses the .mp3 extension (for example, \r\nrhyme_rap.mp3).";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label15.Location = new System.Drawing.Point(53, 443);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(48, 55);
-            this.label15.TabIndex = 54;
-            this.label15.Text = "*";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(100, 443);
+            this.label16.Location = new System.Drawing.Point(89, 354);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(571, 50);
+            this.label16.Size = new System.Drawing.Size(486, 44);
             this.label16.TabIndex = 53;
             this.label16.Text = "A Word document uses the .docx extension, or .doc \r\nfor older versions (for examp" +
     "le, CoverLetter.docx).";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label14.Location = new System.Drawing.Point(53, 377);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(48, 55);
-            this.label14.TabIndex = 52;
-            this.label14.Text = "*";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Century Schoolbook", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label12.Location = new System.Drawing.Point(31, 321);
+            this.label12.Location = new System.Drawing.Point(28, 257);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(409, 34);
+            this.label12.Size = new System.Drawing.Size(352, 30);
             this.label12.TabIndex = 51;
             this.label12.Text = "Examples of file extensions";
             // 
@@ -688,30 +692,20 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(71, 1275);
+            this.label2.Location = new System.Drawing.Point(63, 1020);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(666, 150);
+            this.label2.Size = new System.Drawing.Size(568, 132);
             this.label2.TabIndex = 50;
             this.label2.Text = resources.GetString("label2.Text");
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(312, 1033);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(259, 115);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 49;
-            this.pictureBox2.TabStop = false;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(159, 1139);
+            this.label13.Location = new System.Drawing.Point(141, 911);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(554, 100);
+            this.label13.Size = new System.Drawing.Size(473, 88);
             this.label13.TabIndex = 48;
             this.label13.Text = "Many programs also have a Redo function, which \r\nwill undo your last undo. If you" +
     " use Undo but then \r\nrealize you didn’t want to Undo your most recent \r\nchange, " +
@@ -722,9 +716,9 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(62, 715);
+            this.label11.Location = new System.Drawing.Point(55, 572);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(630, 100);
+            this.label11.Size = new System.Drawing.Size(530, 88);
             this.label11.TabIndex = 46;
             this.label11.Text = resources.GetString("label11.Text");
             // 
@@ -733,9 +727,9 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(100, 377);
+            this.label9.Location = new System.Drawing.Point(89, 302);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(579, 50);
+            this.label9.Size = new System.Drawing.Size(490, 44);
             this.label9.TabIndex = 45;
             this.label9.Text = "A JPEG uses the .jpg or .jpeg extension (for example, \r\nimage.jpg).";
             // 
@@ -744,9 +738,9 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Schoolbook", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label8.Location = new System.Drawing.Point(146, 984);
+            this.label8.Location = new System.Drawing.Point(130, 787);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(406, 34);
+            this.label8.Size = new System.Drawing.Size(348, 30);
             this.label8.TabIndex = 44;
             this.label8.Text = "How to access built-in help";
             // 
@@ -756,9 +750,10 @@
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(155)))), ((int)(((byte)(180)))));
             this.button2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(356, 1300);
+            this.button2.Location = new System.Drawing.Point(316, 1040);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(158, 54);
+            this.button2.Size = new System.Drawing.Size(140, 43);
             this.button2.TabIndex = 42;
             this.button2.Text = "continue";
             this.button2.UseVisualStyleBackColor = false;
@@ -769,9 +764,9 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Century Schoolbook", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label10.Location = new System.Drawing.Point(38, 1116);
+            this.label10.Location = new System.Drawing.Point(34, 893);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(144, 169);
+            this.label10.Size = new System.Drawing.Size(120, 142);
             this.label10.TabIndex = 14;
             this.label10.Text = "*";
             // 
@@ -780,26 +775,26 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(58, 88);
+            this.label6.Location = new System.Drawing.Point(52, 70);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(636, 175);
+            this.label6.Size = new System.Drawing.Size(540, 154);
             this.label6.TabIndex = 3;
             this.label6.Text = resources.GetString("label6.Text");
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(113, 167);
+            this.label5.Location = new System.Drawing.Point(100, 134);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 20);
+            this.label5.Size = new System.Drawing.Size(0, 16);
             this.label5.TabIndex = 2;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(63, 120);
+            this.label4.Location = new System.Drawing.Point(56, 96);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 20);
+            this.label4.Size = new System.Drawing.Size(0, 16);
             this.label4.TabIndex = 1;
             // 
             // Label3
@@ -807,21 +802,55 @@
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Century Schoolbook", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.Label3.Location = new System.Drawing.Point(30, 34);
+            this.Label3.Location = new System.Drawing.Point(27, 27);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(518, 37);
+            this.Label3.Size = new System.Drawing.Size(446, 32);
             this.Label3.TabIndex = 0;
             this.Label3.Text = "Understanding file extensions";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(277, 826);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(230, 92);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 49;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.label15.Location = new System.Drawing.Point(47, 354);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(40, 47);
+            this.label15.TabIndex = 54;
+            this.label15.Text = "*";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.label14.Location = new System.Drawing.Point(47, 302);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(40, 47);
+            this.label14.TabIndex = 52;
+            this.label14.Text = "*";
+            // 
             // BCS_4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1105, 563);
+            this.ClientSize = new System.Drawing.Size(1003, 450);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "BCS_4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BCS_4";
@@ -879,9 +908,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
@@ -889,5 +916,7 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
     }
 }

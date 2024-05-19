@@ -39,7 +39,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.c = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnClose = new Guna.UI2.WinForms.Guna2Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -203,19 +203,19 @@
             this.guna2TextBox2.Size = new System.Drawing.Size(381, 32);
             this.guna2TextBox2.TabIndex = 1;
             // 
-            // button1
+            // c
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(373, 290);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 29);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Sign in";
-            this.button1.UseVisualStyleBackColor = false;
+            this.c.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.c.FlatAppearance.BorderSize = 0;
+            this.c.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.c.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.c.Location = new System.Drawing.Point(373, 290);
+            this.c.Name = "c";
+            this.c.Size = new System.Drawing.Size(98, 29);
+            this.c.TabIndex = 2;
+            this.c.Text = "Sign in";
+            this.c.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -296,7 +296,7 @@
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.c);
             this.Controls.Add(this.guna2TextBox2);
             this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.label6);
@@ -328,7 +328,7 @@
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button c;
         private System.Windows.Forms.Button button2;
         private Guna.UI2.WinForms.Guna2Button btnClose;
         private System.Windows.Forms.CheckBox checkBox1;
