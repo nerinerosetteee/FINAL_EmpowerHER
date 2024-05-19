@@ -16,6 +16,7 @@ namespace AOOP_EmpowerHER.Student_UC
         String query, ans, selectedValue;
         int score = 0, qNo = 1, qNoMax;
         DataSet ds;
+        string username = Properties.Settings.Default.Username;
 
         public Quiz()
         {
@@ -53,6 +54,11 @@ namespace AOOP_EmpowerHER.Student_UC
             selectedValue = OptionB.Text;
         }
 
+        private void QuestionNo_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void OptionC_Click(object sender, EventArgs e)
         {
             OptionA.Checked = false;
@@ -64,9 +70,9 @@ namespace AOOP_EmpowerHER.Student_UC
 
         private void Next_Click(object sender, EventArgs e)
         {
-            if(qNo < qNoMax)
+            if (qNo < qNoMax)
             {
-                if(selectedValue == ans)
+                if (selectedValue == ans)
                 {
                     score++;
                 }
@@ -77,8 +83,23 @@ namespace AOOP_EmpowerHER.Student_UC
             }
             else
             {
-                MessageBox.Show("Quiz Over.");
-                Application.Exit();
+                int hasTaken;
+                query = $"SELECT COUNT(*) FROM Score WHERE Student_Username = '{username}' AND qset = 1";
+                ds = conn.getData(query);
+                hasTaken = Convert.ToInt32(ds.Tables[0].Rows[0][0]);
+                MessageBox.Show($"User has taken: {hasTaken}");
+
+                if (hasTaken > 0)
+                {
+                    query = $"UPDATE Score SET Score = {score} WHERE Student_Username = '{username}' AND qSet = 1";
+                    conn.setData(query, "Okay");
+                }
+
+                else
+                {
+                    query = $"INSERT INTO Score (Student_Username, qSet, Score) Values ('{username}', 1, {score})";
+                    conn.setData(query, "Okay");
+                }
             }
         }
 

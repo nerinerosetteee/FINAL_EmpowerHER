@@ -17,14 +17,14 @@ namespace AOOP_EmpowerHER
 
         public string connection()
         {
-            con = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\drich\source\repos\AOOP_EmpowerHER\EmpowerHER.mdf;Integrated Security=True";
+            con = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\drich\Source\Repos\FINAL_EmpowerHER\EmpowerHER.mdf;Integrated Security=True";
             return con;
         }
 
         protected SqlConnection getconn()
         {
             SqlConnection conn = new SqlConnection(con);
-            conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\drich\\source\\repos\\AOOP_EmpowerHER\\EmpowerHER.mdf;Integrated Security=True";
+            conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\drich\\source\\repos\\FINAL_EmpowerHER\\EmpowerHER.mdf;Integrated Security=True";
             return conn;
         }
         public DataSet getData(String query)
