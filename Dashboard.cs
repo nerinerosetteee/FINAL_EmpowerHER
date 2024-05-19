@@ -16,19 +16,5 @@ namespace AOOP_EmpowerHER
         {
             InitializeComponent();
         }
-
-        private void Button2_Click(object sender, EventArgs e)
-        {
-            Internet_Navigation internetnav= new Internet_Navigation();
-            internetnav.ShowDialog();
-        }
-
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            BasicComputerSkills fr2 = new BasicComputerSkills();
-            fr2.ShowDialog(); 
-        }
-
-
     }
 }
