@@ -360,7 +360,7 @@
             // uC_View_Delete1
             // 
             this.uC_View_Delete1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
-            this.uC_View_Delete1.Location = new System.Drawing.Point(-3, -3);
+            this.uC_View_Delete1.Location = new System.Drawing.Point(0, 0);
             this.uC_View_Delete1.Name = "uC_View_Delete1";
             this.uC_View_Delete1.Size = new System.Drawing.Size(550, 450);
             this.uC_View_Delete1.TabIndex = 2;

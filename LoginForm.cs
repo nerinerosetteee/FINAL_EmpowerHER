@@ -6,11 +6,9 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Security.Cryptography;
-using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace AOOP_EmpowerHER
 {
@@ -122,7 +120,6 @@ namespace AOOP_EmpowerHER
         private void button1_Click(object sender, EventArgs e)
         {
             string username = Username.Text;
-            string user_pass = Password.Text;
 
             try
             {
@@ -134,12 +131,18 @@ namespace AOOP_EmpowerHER
                 cn.Open();
                 Int32 count = (Int32)cmd.ExecuteScalar();
                 string countstring = count.ToString();
+
                 if (count > 0)
                 {
-                    Dashboard dashboard = new Dashboard();
-                    dashboard.Show();
+                    Properties.Settings.Default.Username = username;
+                    Properties.Settings.Default.Password = pass_decrypted;
+                    Properties.Settings.Default.Save();
+
+                    MessageBox.Show("Account successfully logged in.", "Welcome! " + Properties.Settings.Default.Username, MessageBoxButtons.OK);
+
+                    Student_Quizcs quiz = new Student_Quizcs();
+                    quiz.Show();
                     this.Hide();
-                    MessageBox.Show("Account successfully logged in.", "Welcome! " + username, MessageBoxButtons.OK);
                 }
                 else
                 {
@@ -155,17 +158,14 @@ namespace AOOP_EmpowerHER
             finally
             {
                 cn.Close();
-                Student_Quizcs quiz = new Student_Quizcs();
-                quiz.Show();
-                this.Hide();
             }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ForgotPass forpass = new ForgotPass();
+            ForgotPass forpaass = new ForgotPass();
             this.Hide();
-            forpass.Show();
+            forpaass.Show();
         }
     }
 }
