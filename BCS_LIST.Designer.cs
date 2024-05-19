@@ -188,6 +188,8 @@
             // 
             // guna2Button3
             // 
+            this.guna2Button3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.guna2Button3.CheckedState.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -204,6 +206,8 @@
             // 
             // guna2Button4
             // 
+            this.guna2Button4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.guna2Button4.CheckedState.ForeColor = System.Drawing.Color.White;
             this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -220,6 +224,8 @@
             // 
             // guna2Button6
             // 
+            this.guna2Button6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.guna2Button6.CheckedState.ForeColor = System.Drawing.Color.White;
             this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -236,6 +242,8 @@
             // 
             // guna2Button5
             // 
+            this.guna2Button5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.guna2Button5.CheckedState.ForeColor = System.Drawing.Color.White;
             this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -252,6 +260,8 @@
             // 
             // guna2Button7
             // 
+            this.guna2Button7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.guna2Button7.CheckedState.ForeColor = System.Drawing.Color.White;
             this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -268,6 +278,8 @@
             // 
             // guna2Button8
             // 
+            this.guna2Button8.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.guna2Button8.CheckedState.ForeColor = System.Drawing.Color.White;
             this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -284,6 +296,8 @@
             // 
             // guna2Button9
             // 
+            this.guna2Button9.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.guna2Button9.CheckedState.ForeColor = System.Drawing.Color.White;
             this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -300,6 +314,8 @@
             // 
             // guna2Button10
             // 
+            this.guna2Button10.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.guna2Button10.CheckedState.ForeColor = System.Drawing.Color.White;
             this.guna2Button10.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
