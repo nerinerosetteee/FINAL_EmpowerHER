@@ -129,44 +129,6 @@ keywords you entered.
 
 </value>
   </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Most programs have one of two ways to access built-in help. 
-For example, Adobe Photoshop Elements has a Help menu 
-with a variety of options. Many of these options open 
-Adobe’s support page in your web browser, while others 
-access features within the program itself.</value>
-  </data>
-  <data name="label19.Text" xml:space="preserve">
-    <value>Although built-in help can be useful, it may not always have 
-the information you want. If you can’t find what you’re 
-looking for or don’t understand what you've found, you can 
-usually ask someone you know, do a Google search, or 
-contact support staff. It can take a little extra time and effort, 
-but learning how to find solutions on your own is a valuable 
-skill—and you’ll get better at it with practice.</value>
-  </data>
-  <data name="label22.Text" xml:space="preserve">
-    <value>The table of contents for Mozilla’s support page is a broad 
-list of categories. Clicking any of these hyperlinks will lead 
-to a list of narrower topics and specific help articles. There’s 
-also a search bar to help you.</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Everyone needs to look for help sometimes. Luckily, when you 
-want help with a computer program, it’s usually easy to find. 
-Most programs have a help feature somewhere, and learning 
-how to use it can make a big difference. You may not find 
-everything you need, but your computer’s built-in help is a 
-great place to start.
-
-Different programs integrate help features in different ways. 
-Some are like interactive manuals included with the program 
-that you can open with a menu, while others are just links to 
-the developer’s support website. But they’re always designed 
-with the same thing in mind: to help you learn the features of 
-the program and to solve problems yourself.
-</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -798,6 +760,22 @@ the program and to solve problems yourself.
         gR2DNZImNELJJKyFkklZCySSshZJJWQskkrIWSSVkLJJKyFkklZCySSshCayQ/KFIzSTkjFogeP1dhFO
         MXA6gIe2uPJ61flOyrp/dHSNP829XrT/AP/Z
 </value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Most programs have one of two ways to access built-in help. 
+For example, Adobe Photoshop Elements has a Help menu 
+with a variety of options. Many of these options open 
+Adobe’s support page in your web browser, while others 
+access features within the program itself.</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Although built-in help can be useful, it may not always have 
+the information you want. If you can’t find what you’re 
+looking for or don’t understand what you've found, you can 
+usually ask someone you know, do a Google search, or 
+contact support staff. It can take a little extra time and effort, 
+but learning how to find solutions on your own is a valuable 
+skill—and you’ll get better at it with practice.</value>
   </data>
   <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1600,6 +1578,12 @@ the program and to solve problems yourself.
         qPYqmN3jPgs86p5IwNd0eK8I7PvK/wCXZVVHX4QiRvg/bxWrd4yhI1V8Ebu+FjG77qK6j57URwHeZXCf
         PVis0edPf730n0Q/hOgasRwTgPxLIHoMdhB70IzbKu932XpnpILS64zU2nbj+gnJP9sH/9k=
 </value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>The table of contents for Mozilla’s support page is a broad 
+list of categories. Clicking any of these hyperlinks will lead 
+to a list of narrower topics and specific help articles. There’s 
+also a search bar to help you.</value>
   </data>
   <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2996,6 +2980,22 @@ the program and to solve problems yourself.
         G0KjaFRtCo2hUbQqNoVG0KjaFRtCo2hUbQqNoVG0KjaFRtCo2hUbQqNoVNplrQCqbjLhKo2hUbQqNoVG
         0KjaFRtCo2hUbQqNoVG0KjaFRtCo2hUbQqNoVG0KjaFRtCo2hUbQqNoVG0KjaFRtCo2hU2GWgA/7DccN
         PivT/iAf/9k=
+</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Everyone needs to look for help sometimes. Luckily, when you 
+want help with a computer program, it’s usually easy to find. 
+Most programs have a help feature somewhere, and learning 
+how to use it can make a big difference. You may not find 
+everything you need, but your computer’s built-in help is a 
+great place to start.
+
+Different programs integrate help features in different ways. 
+Some are like interactive manuals included with the program 
+that you can open with a menu, while others are just links to 
+the developer’s support website. But they’re always designed 
+with the same thing in mind: to help you learn the features of 
+the program and to solve problems yourself.
 </value>
   </data>
   <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

@@ -112,13 +112,13 @@
             this.panel2.Controls.Add(this.Label3);
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(759, 4577);
+            this.panel2.Size = new System.Drawing.Size(759, 4898);
             this.panel2.TabIndex = 10;
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(93, 3997);
+            this.pictureBox6.Location = new System.Drawing.Point(86, 4316);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(597, 456);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -130,7 +130,7 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.Black;
-            this.label19.Location = new System.Drawing.Point(62, 3877);
+            this.label19.Location = new System.Drawing.Point(58, 4174);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(614, 100);
             this.label19.TabIndex = 84;
@@ -141,7 +141,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(94, 3449);
+            this.pictureBox5.Location = new System.Drawing.Point(92, 3706);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(597, 411);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -153,7 +153,7 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(58, 3319);
+            this.label18.Location = new System.Drawing.Point(62, 3550);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(619, 100);
             this.label18.TabIndex = 82;
@@ -162,7 +162,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(152, 3120);
+            this.pictureBox4.Location = new System.Drawing.Point(152, 3322);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(502, 173);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -174,7 +174,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(55, 2868);
+            this.label17.Location = new System.Drawing.Point(61, 3044);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(663, 225);
             this.label17.TabIndex = 80;
@@ -185,7 +185,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Century Schoolbook", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label16.Location = new System.Drawing.Point(57, 2822);
+            this.label16.Location = new System.Drawing.Point(63, 2998);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(476, 34);
             this.label16.TabIndex = 79;
@@ -200,7 +200,7 @@
             this.guna2CircleButton4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2CircleButton4.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold);
             this.guna2CircleButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton4.Location = new System.Drawing.Point(67, 2682);
+            this.guna2CircleButton4.Location = new System.Drawing.Point(64, 2847);
             this.guna2CircleButton4.Name = "guna2CircleButton4";
             this.guna2CircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton4.Size = new System.Drawing.Size(100, 100);
@@ -212,7 +212,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(180, 2687);
+            this.label15.Location = new System.Drawing.Point(177, 2852);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(477, 100);
             this.label15.TabIndex = 77;
@@ -223,7 +223,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(88, 2277);
+            this.pictureBox3.Location = new System.Drawing.Point(92, 2408);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(621, 382);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -239,7 +239,7 @@
             this.guna2CircleButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2CircleButton3.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold);
             this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton3.Location = new System.Drawing.Point(67, 2115);
+            this.guna2CircleButton3.Location = new System.Drawing.Point(73, 2219);
             this.guna2CircleButton3.Name = "guna2CircleButton3";
             this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton3.Size = new System.Drawing.Size(100, 100);
@@ -251,7 +251,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(181, 2093);
+            this.label10.Location = new System.Drawing.Point(187, 2197);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(516, 150);
             this.label10.TabIndex = 74;
@@ -262,7 +262,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label14.Location = new System.Drawing.Point(128, 2012);
+            this.label14.Location = new System.Drawing.Point(136, 2124);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(48, 55);
             this.label14.TabIndex = 73;
@@ -273,7 +273,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(179, 2015);
+            this.label9.Location = new System.Drawing.Point(187, 2127);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(486, 46);
             this.label9.TabIndex = 72;
@@ -282,7 +282,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(88, 1480);
+            this.pictureBox1.Location = new System.Drawing.Point(94, 1570);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(621, 382);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -298,7 +298,7 @@
             this.guna2CircleButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2CircleButton2.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold);
             this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.Location = new System.Drawing.Point(64, 1886);
+            this.guna2CircleButton2.Location = new System.Drawing.Point(72, 1998);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton2.Size = new System.Drawing.Size(100, 100);
@@ -310,7 +310,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(180, 1901);
+            this.label8.Location = new System.Drawing.Point(188, 2013);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(510, 75);
             this.label8.TabIndex = 69;
@@ -326,7 +326,7 @@
             this.guna2CircleButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2CircleButton1.Font = new System.Drawing.Font("Century Schoolbook", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.Location = new System.Drawing.Point(64, 1249);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(63, 1291);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton1.Size = new System.Drawing.Size(100, 100);
@@ -338,7 +338,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Schoolbook", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label6.Location = new System.Drawing.Point(31, 1194);
+            this.label6.Location = new System.Drawing.Point(60, 1222);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(422, 34);
             this.label6.TabIndex = 67;
@@ -349,7 +349,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Century Schoolbook", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label12.Location = new System.Drawing.Point(30, 797);
+            this.label12.Location = new System.Drawing.Point(61, 804);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(208, 34);
             this.label12.TabIndex = 66;
@@ -360,7 +360,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(180, 1252);
+            this.label13.Location = new System.Drawing.Point(179, 1294);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(494, 200);
             this.label13.TabIndex = 65;
@@ -371,7 +371,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(58, 848);
+            this.label2.Location = new System.Drawing.Point(61, 862);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(689, 325);
             this.label2.TabIndex = 50;
@@ -419,7 +419,7 @@
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Century Schoolbook", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.Label3.Location = new System.Drawing.Point(30, 34);
+            this.Label3.Location = new System.Drawing.Point(59, 34);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(490, 37);
             this.Label3.TabIndex = 0;

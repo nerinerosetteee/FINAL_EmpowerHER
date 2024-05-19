@@ -73,11 +73,11 @@
     <Compile Include="BCS.Designer.cs">
       <DependentUpon>BCS.cs</DependentUpon>
     </Compile>
-    <Compile Include="BCS_8.cs">
+    <Compile Include="BCS_LIST.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BCS_8.Designer.cs">
-      <DependentUpon>BCS_8.cs</DependentUpon>
+    <Compile Include="BCS_LIST.Designer.cs">
+      <DependentUpon>BCS_LIST.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
@@ -96,53 +96,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmpowerHERDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="IN_1.cs">
+    <Compile Include="IN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IN_1.Designer.cs">
-      <DependentUpon>IN_1.cs</DependentUpon>
+    <Compile Include="IN.Designer.cs">
+      <DependentUpon>IN.cs</DependentUpon>
     </Compile>
-    <Compile Include="IN_2.cs">
+    <Compile Include="IN_LIST.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IN_2.Designer.cs">
-      <DependentUpon>IN_2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IN_3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IN_3.Designer.cs">
-      <DependentUpon>IN_3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IN_4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IN_4.Designer.cs">
-      <DependentUpon>IN_4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IN_5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IN_5.Designer.cs">
-      <DependentUpon>IN_5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IN_6.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IN_6.Designer.cs">
-      <DependentUpon>IN_6.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IN_7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IN_7.Designer.cs">
-      <DependentUpon>IN_7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IN_8.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IN_8.Designer.cs">
-      <DependentUpon>IN_8.cs</DependentUpon>
+    <Compile Include="IN_LIST.Designer.cs">
+      <DependentUpon>IN_LIST.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -206,38 +170,62 @@
     <Compile Include="UC_BCS\UC_BCS_7.Designer.cs">
       <DependentUpon>UC_BCS_7.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC_IN\UC_IN_1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_1.Designer.cs">
+      <DependentUpon>UC_IN_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_2.Designer.cs">
+      <DependentUpon>UC_IN_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_3.Designer.cs">
+      <DependentUpon>UC_IN_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_4.Designer.cs">
+      <DependentUpon>UC_IN_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_5.Designer.cs">
+      <DependentUpon>UC_IN_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_6.Designer.cs">
+      <DependentUpon>UC_IN_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_7.Designer.cs">
+      <DependentUpon>UC_IN_7.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BCS.resx">
       <DependentUpon>BCS.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BCS_8.resx">
-      <DependentUpon>BCS_8.cs</DependentUpon>
+    <EmbeddedResource Include="BCS_LIST.resx">
+      <DependentUpon>BCS_LIST.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IN_1.resx">
-      <DependentUpon>IN_1.cs</DependentUpon>
+    <EmbeddedResource Include="IN.resx">
+      <DependentUpon>IN.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IN_2.resx">
-      <DependentUpon>IN_2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IN_3.resx">
-      <DependentUpon>IN_3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IN_4.resx">
-      <DependentUpon>IN_4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IN_5.resx">
-      <DependentUpon>IN_5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IN_6.resx">
-      <DependentUpon>IN_6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IN_7.resx">
-      <DependentUpon>IN_7.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IN_8.resx">
-      <DependentUpon>IN_8.cs</DependentUpon>
+    <EmbeddedResource Include="IN_LIST.resx">
+      <DependentUpon>IN_LIST.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -278,6 +266,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UC_BCS\UC_BCS_7.resx">
       <DependentUpon>UC_BCS_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_1.resx">
+      <DependentUpon>UC_IN_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_2.resx">
+      <DependentUpon>UC_IN_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_3.resx">
+      <DependentUpon>UC_IN_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_4.resx">
+      <DependentUpon>UC_IN_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_5.resx">
+      <DependentUpon>UC_IN_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_6.resx">
+      <DependentUpon>UC_IN_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_7.resx">
+      <DependentUpon>UC_IN_7.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="EmpowerHERDataSet.xsc">
       <DependentUpon>EmpowerHERDataSet.xsd</DependentUpon>

@@ -18,15 +18,8 @@ C:\Users\nicole\Source\Repos\AOOP_EmpowerHER2\obj\Debug\AOOP_EmpowerHER.BasicCom
 C:\Users\nicole\Source\Repos\AOOP_EmpowerHER2\obj\Debug\AOOP_EmpowerHER.BCS_2.resources
 C:\Users\nicole\Source\Repos\AOOP_EmpowerHER2\obj\Debug\AOOP_EmpowerHER.Dashboard.resources
 C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.csproj.AssemblyReference.cache
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.BCS_2.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.BCS_3.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.BCS_4.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.BCS_5.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.BCS_6.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.BCS_7.resources
 C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.BCS_8.resources
 C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Dashboard.resources
-C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Internet_Navigation.resources
 C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_1.resources
 C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_2.resources
 C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_3.resources
@@ -56,3 +49,11 @@ C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_BCS.UC_BCS_4.
 C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_BCS.UC_BCS_5.resources
 C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_BCS.UC_BCS_6.resources
 C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_BCS.UC_BCS_7.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_1.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_2.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_3.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_4.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_5.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_6.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.UC_IN.UC_IN_7.resources

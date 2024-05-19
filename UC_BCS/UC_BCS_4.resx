@@ -118,11 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label13.Text" xml:space="preserve">
-    <value>Many programs also have a Redo function, which 
-File extensions also tell your computer which 
-applications to use when opening that file. 
-Sometime you may want to use a different 
-application to open that file.</value>
+    <value>Many programs also have a Redo function, which File 
+extensions also tell your computer which applications 
+to use when opening that file. Sometime you may 
+want to use a different application to open that file.</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>You can also usually tell what the file type is by looking 
