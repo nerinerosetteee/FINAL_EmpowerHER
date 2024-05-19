@@ -100,3 +100,15 @@ C:\Users\drich\Source\Repos\FINAL_EmpowerHER\bin\Debug\Guna.UI2.dll
 C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_EmpowerHER.Student_Quizcs.resources
 C:\Users\drich\Source\Repos\FINAL_EmpowerHER\obj\Debug\AOOP_Emp.F10F164A.Up2Date
 >>>>>>> 5d5ea0f2a88de1367a1d16e0020fb6c2b244d610
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.admin_Main.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Admin_UC.UC_AddNewQuestionscs.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Admin_UC.UC_UpdateQuestions.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Admin_UC.UC_View_Delete.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.ForgotPass.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Student_Quizcs.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.Student_UC.Quiz.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.VerifiedEmail.resources
+C:\Users\nicole\Source\Repos\NewRepo2\bin\Debug\EmpowerHER.mdf
+C:\Users\nicole\Source\Repos\NewRepo2\bin\Debug\EmpowerHER_log.ldf
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.BCS_LIST.resources
+C:\Users\nicole\Source\Repos\NewRepo2\obj\Debug\AOOP_EmpowerHER.IN_LIST.resources
