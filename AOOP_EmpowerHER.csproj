@@ -67,33 +67,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BasicComputerSkills.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BasicComputerSkills.Designer.cs">
-      <DependentUpon>BasicComputerSkills.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BCS_1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BCS_2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BCS_2.Designer.cs">
-      <DependentUpon>BCS_2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BCS_3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BCS_3.Designer.cs">
-      <DependentUpon>BCS_3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BCS_4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BCS_4.Designer.cs">
-      <DependentUpon>BCS_4.cs</DependentUpon>
-    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,9 +138,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmpowerHERDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="BCS_1.Designer.cs">
-      <DependentUpon>BCS_1.cs</DependentUpon>
-    </Compile>
     <Compile Include="DbConnect.cs" />
     <Compile Include="EmpowerHERDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -197,6 +167,12 @@
     </Compile>
     <Compile Include="Excel_Module_UC\UC_Excel_3.Designer.cs">
       <DependentUpon>UC_Excel_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPass.Designer.cs">
+      <DependentUpon>ForgotPass.cs</DependentUpon>
     </Compile>
     <Compile Include="G1.cs">
       <SubType>Form</SubType>
@@ -240,12 +216,7 @@
     <Compile Include="Gmail_Module_UC\UC_Gmail_3.Designer.cs">
       <DependentUpon>UC_Gmail_3.cs</DependentUpon>
     </Compile>
-    <Compile Include="InternetNavigation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InternetNavigation.Designer.cs">
-      <DependentUpon>InternetNavigation.cs</DependentUpon>
-    </Compile>
+    <Compile Include="HashP.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -296,6 +267,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quiz.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quiz.Designer.cs" />
     <Compile Include="register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -307,6 +282,18 @@
     </Compile>
     <Compile Include="SplashForm.Designer.cs">
       <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Quizcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Quizcs.Designer.cs">
+      <DependentUpon>Student_Quizcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerifiedEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerifiedEmail.Designer.cs">
+      <DependentUpon>VerifiedEmail.cs</DependentUpon>
     </Compile>
     <Compile Include="W1.cs">
       <SubType>Form</SubType>
@@ -350,21 +337,6 @@
     <Compile Include="Word_Module_UC\UC_Word_3.Designer.cs">
       <DependentUpon>UC_Word_3.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="BasicComputerSkills.resx">
-      <DependentUpon>BasicComputerSkills.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BCS_1.resx">
-      <DependentUpon>BCS_1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BCS_2.resx">
-      <DependentUpon>BCS_2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BCS_3.resx">
-      <DependentUpon>BCS_3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BCS_4.resx">
-      <DependentUpon>BCS_4.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -410,6 +382,9 @@
     <EmbeddedResource Include="Excel_Module_UC\UC_Excel_3.resx">
       <DependentUpon>UC_Excel_3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPass.resx">
+      <DependentUpon>ForgotPass.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="G1.resx">
       <DependentUpon>G1.cs</DependentUpon>
     </EmbeddedResource>
@@ -430,9 +405,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gmail_Module_UC\UC_Gmail_3.resx">
       <DependentUpon>UC_Gmail_3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InternetNavigation.resx">
-      <DependentUpon>InternetNavigation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
@@ -468,11 +440,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Quiz.resx" />
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashForm.resx">
       <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Quizcs.resx">
+      <DependentUpon>Student_Quizcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerifiedEmail.resx">
+      <DependentUpon>VerifiedEmail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="W1.resx">
       <DependentUpon>W1.cs</DependentUpon>
