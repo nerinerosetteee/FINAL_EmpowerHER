@@ -115,12 +115,16 @@ namespace AOOP_EmpowerHER
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-
+            qSetNo = Properties.Settings.Default.qSetNo;
+            Dashboard_MS dms = new Dashboard_MS();
+            dms.Show(); this.Hide();
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-
+            qSetNo = Properties.Settings.Default.qSetNo;
+            Dashbaord_EC dec = new Dashbaord_EC();
+            dec.Show(); this.Hide();
         }
     }
 }

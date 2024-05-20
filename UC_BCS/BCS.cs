@@ -27,6 +27,7 @@ namespace AOOP_EmpowerHER
 
         private void BCS_Load(object sender, EventArgs e)
         {
+            label1.Text = username;
             BCS_LIST bCS = new BCS_LIST();
             int buttonClicked = bCS.getClick;
             

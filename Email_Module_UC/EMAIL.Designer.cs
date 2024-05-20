@@ -232,6 +232,7 @@
             this.guna2Button6.TabIndex = 52;
             this.guna2Button6.Text = "Email Quiz";
             this.guna2Button6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // guna2Button5
             // 
@@ -250,6 +251,7 @@
             this.guna2Button5.TabIndex = 51;
             this.guna2Button5.Text = "Contacts and Calendars";
             this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // guna2Button4
             // 
@@ -268,6 +270,7 @@
             this.guna2Button4.TabIndex = 50;
             this.guna2Button4.Text = "Common Email Features";
             this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2Button3
             // 
@@ -286,6 +289,7 @@
             this.guna2Button3.TabIndex = 13;
             this.guna2Button3.Text = "Introduction to Email";
             this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // EMAIL
             // 
@@ -301,6 +305,7 @@
             this.Name = "EMAIL";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EMAIL";
+            this.Load += new System.EventHandler(this.EMAIL_Load);
             this.panel4.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

@@ -138,6 +138,8 @@
             // 
             this.guna2ProgressBar1.Location = new System.Drawing.Point(20, 59);
             this.guna2ProgressBar1.Name = "guna2ProgressBar1";
+            this.guna2ProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.guna2ProgressBar1.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2ProgressBar1.Size = new System.Drawing.Size(248, 13);
             this.guna2ProgressBar1.TabIndex = 6;
             this.guna2ProgressBar1.Text = "guna2ProgressBar1";
@@ -232,6 +234,7 @@
             this.guna2Button6.TabIndex = 52;
             this.guna2Button6.Text = "Excel Quiz";
             this.guna2Button6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // guna2Button5
             // 
@@ -250,6 +253,7 @@
             this.guna2Button5.TabIndex = 51;
             this.guna2Button5.Text = "Create and Open Workbooks";
             this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // guna2Button4
             // 
@@ -268,6 +272,7 @@
             this.guna2Button4.TabIndex = 50;
             this.guna2Button4.Text = "Understanding OneDrive";
             this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2Button3
             // 
@@ -286,6 +291,7 @@
             this.guna2Button3.TabIndex = 13;
             this.guna2Button3.Text = "Getting Started";
             this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // EXCEL
             // 
@@ -301,6 +307,7 @@
             this.Name = "EXCEL";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EXCEL";
+            this.Load += new System.EventHandler(this.EXCEL_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();

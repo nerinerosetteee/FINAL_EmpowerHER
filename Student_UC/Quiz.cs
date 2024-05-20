@@ -33,7 +33,6 @@ namespace AOOP_EmpowerHER.Student_UC
         {
             Dashboard dashboard = new Dashboard();
             qSetNo = dashboard.getqSetNo;
-            MessageBox.Show($"Set Number: {qSetNo}");
 
             query = $"SELECT optionA, optionB, optionC, optionD, ans, question FROM Questions WHERE qSet = {qSetNo} AND qNo = {qNo}";
             ds = conn.getData(query);

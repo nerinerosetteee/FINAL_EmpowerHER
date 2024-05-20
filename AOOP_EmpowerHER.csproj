@@ -69,11 +69,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dashbaord_EC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashbaord_EC.Designer.cs">
+      <DependentUpon>Dashbaord_EC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard_MS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard_MS.Designer.cs">
+      <DependentUpon>Dashboard_MS.cs</DependentUpon>
     </Compile>
     <Compile Include="Email_Module_UC\EMAIL.cs">
       <SubType>Form</SubType>
@@ -443,8 +455,14 @@
     <Compile Include="Word_Module_UC\WORD.Designer.cs">
       <DependentUpon>WORD.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Dashbaord_EC.resx">
+      <DependentUpon>Dashbaord_EC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard_MS.resx">
+      <DependentUpon>Dashboard_MS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Email_Module_UC\EMAIL.resx">
       <DependentUpon>EMAIL.cs</DependentUpon>

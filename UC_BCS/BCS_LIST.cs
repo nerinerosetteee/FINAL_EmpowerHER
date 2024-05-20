@@ -86,5 +86,14 @@ namespace AOOP_EmpowerHER
             var bcs = new BCS();
             bcs.Show(); this.Hide();
         }
+
+        private void BCS_LIST_Load(object sender, EventArgs e)
+        {
+            Dashboard dashboard = new Dashboard();
+            int progress = dashboard.getbcsProg;
+
+            guna2ProgressBar1.Value = progress * 100 / 7;
+            label2.Text = guna2ProgressBar1.Value.ToString() + "% COMPLETED";
+        }
     }
 }

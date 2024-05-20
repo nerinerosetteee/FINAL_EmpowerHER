@@ -31,24 +31,24 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashbaord_EC));
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.guna2ProgressBar1 = new Guna.UI2.WinForms.Guna2ProgressBar();
+            this.email = new System.Windows.Forms.Label();
+            this.emailProgressBar = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.guna2ProgressBar2 = new Guna.UI2.WinForms.Guna2ProgressBar();
+            this.gmail = new System.Windows.Forms.Label();
+            this.gmailProgressBar = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
@@ -58,8 +58,9 @@
             this.panel3.Controls.Add(this.guna2PictureBox1);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1112, 83);
+            this.panel3.Size = new System.Drawing.Size(988, 66);
             this.panel3.TabIndex = 19;
             // 
             // button1
@@ -68,26 +69,14 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(899, 22);
+            this.button1.Location = new System.Drawing.Point(799, 18);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(182, 42);
+            this.button1.Size = new System.Drawing.Size(162, 34);
             this.button1.TabIndex = 20;
             this.button1.Text = "Return to Main ";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(31, 12);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(56, 62);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 19;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // label6
             // 
@@ -95,43 +84,47 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Century Schoolbook", 18F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
-            this.label6.Location = new System.Drawing.Point(93, 22);
+            this.label6.Location = new System.Drawing.Point(83, 18);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(285, 42);
+            this.label6.Size = new System.Drawing.Size(238, 35);
             this.label6.TabIndex = 16;
             this.label6.Text = "EmpowerHER";
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Controls.Add(this.guna2ProgressBar1);
+            this.panel4.Controls.Add(this.email);
+            this.panel4.Controls.Add(this.emailProgressBar);
             this.panel4.Controls.Add(this.guna2Button2);
             this.panel4.Controls.Add(this.pictureBox2);
-            this.panel4.Location = new System.Drawing.Point(258, 149);
+            this.panel4.Location = new System.Drawing.Point(229, 119);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(259, 347);
+            this.panel4.Size = new System.Drawing.Size(230, 278);
             this.panel4.TabIndex = 20;
             // 
-            // label2
+            // email
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label2.Location = new System.Drawing.Point(211, 309);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 26);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "5%";
+            this.email.AutoSize = true;
+            this.email.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.email.Location = new System.Drawing.Point(188, 247);
+            this.email.Name = "email";
+            this.email.Size = new System.Drawing.Size(37, 23);
+            this.email.TabIndex = 3;
+            this.email.Text = "5%";
             // 
-            // guna2ProgressBar1
+            // emailProgressBar
             // 
-            this.guna2ProgressBar1.Location = new System.Drawing.Point(6, 272);
-            this.guna2ProgressBar1.Name = "guna2ProgressBar1";
-            this.guna2ProgressBar1.Size = new System.Drawing.Size(248, 13);
-            this.guna2ProgressBar1.TabIndex = 2;
-            this.guna2ProgressBar1.Text = "guna2ProgressBar1";
-            this.guna2ProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.emailProgressBar.Location = new System.Drawing.Point(5, 218);
+            this.emailProgressBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.emailProgressBar.Name = "emailProgressBar";
+            this.emailProgressBar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.emailProgressBar.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.emailProgressBar.Size = new System.Drawing.Size(220, 10);
+            this.emailProgressBar.TabIndex = 2;
+            this.emailProgressBar.Text = "guna2ProgressBar1";
+            this.emailProgressBar.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             // 
             // guna2Button2
             // 
@@ -142,53 +135,49 @@
             this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
             this.guna2Button2.Font = new System.Drawing.Font("Century Schoolbook", 12F);
             this.guna2Button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.guna2Button2.Location = new System.Drawing.Point(2, 197);
+            this.guna2Button2.Location = new System.Drawing.Point(2, 158);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(254, 69);
+            this.guna2Button2.Size = new System.Drawing.Size(226, 55);
             this.guna2Button2.TabIndex = 1;
             this.guna2Button2.Text = "Email";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-10, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(275, 187);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.guna2ProgressBar2);
+            this.panel1.Controls.Add(this.gmail);
+            this.panel1.Controls.Add(this.gmailProgressBar);
             this.panel1.Controls.Add(this.guna2Button1);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(564, 149);
+            this.panel1.Location = new System.Drawing.Point(501, 119);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(259, 347);
+            this.panel1.Size = new System.Drawing.Size(230, 278);
             this.panel1.TabIndex = 21;
             // 
-            // label1
+            // gmail
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.label1.Location = new System.Drawing.Point(211, 309);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 26);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "5%";
+            this.gmail.AutoSize = true;
+            this.gmail.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.gmail.Location = new System.Drawing.Point(188, 247);
+            this.gmail.Name = "gmail";
+            this.gmail.Size = new System.Drawing.Size(37, 23);
+            this.gmail.TabIndex = 3;
+            this.gmail.Text = "5%";
             // 
-            // guna2ProgressBar2
+            // gmailProgressBar
             // 
-            this.guna2ProgressBar2.Location = new System.Drawing.Point(6, 272);
-            this.guna2ProgressBar2.Name = "guna2ProgressBar2";
-            this.guna2ProgressBar2.Size = new System.Drawing.Size(248, 13);
-            this.guna2ProgressBar2.TabIndex = 2;
-            this.guna2ProgressBar2.Text = "guna2ProgressBar2";
-            this.guna2ProgressBar2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.gmailProgressBar.Location = new System.Drawing.Point(5, 218);
+            this.gmailProgressBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gmailProgressBar.Name = "gmailProgressBar";
+            this.gmailProgressBar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.gmailProgressBar.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.gmailProgressBar.Size = new System.Drawing.Size(220, 10);
+            this.gmailProgressBar.TabIndex = 2;
+            this.gmailProgressBar.Text = "guna2ProgressBar2";
+            this.gmailProgressBar.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             // 
             // guna2Button1
             // 
@@ -199,43 +188,73 @@
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
             this.guna2Button1.Font = new System.Drawing.Font("Century Schoolbook", 12F);
             this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.guna2Button1.Location = new System.Drawing.Point(2, 197);
+            this.guna2Button1.Location = new System.Drawing.Point(2, 158);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(254, 69);
+            this.guna2Button1.Size = new System.Drawing.Size(226, 55);
             this.guna2Button1.TabIndex = 1;
             this.guna2Button1.Text = "Gmail";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-10, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(-9, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(275, 187);
+            this.pictureBox1.Size = new System.Drawing.Size(244, 150);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(-9, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(244, 150);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(28, 10);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 19;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
             // Dashbaord_EC
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1105, 563);
+            this.ClientSize = new System.Drawing.Size(982, 450);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Dashbaord_EC";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashbaord_EC";
+            this.Load += new System.EventHandler(this.Dashbaord_EC_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -247,13 +266,13 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2ProgressBar guna2ProgressBar1;
+        private System.Windows.Forms.Label email;
+        private Guna.UI2.WinForms.Guna2ProgressBar emailProgressBar;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2ProgressBar guna2ProgressBar2;
+        private System.Windows.Forms.Label gmail;
+        private Guna.UI2.WinForms.Guna2ProgressBar gmailProgressBar;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private System.Windows.Forms.PictureBox pictureBox1;
     }

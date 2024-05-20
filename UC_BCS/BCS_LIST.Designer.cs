@@ -403,6 +403,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "BCS_LIST";
             this.Text = "BCS_LIST";
+            this.Load += new System.EventHandler(this.BCS_LIST_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

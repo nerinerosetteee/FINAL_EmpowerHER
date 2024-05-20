@@ -30,10 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmB1));
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.uC_Email_31 = new AOOP_EmpowerHER.Email_Module_UC.UC_Email_3();
-            this.uC_Email_21 = new AOOP_EmpowerHER.Email_Module_UC.UC_Email_2();
-            this.uC_Email_11 = new AOOP_EmpowerHER.Email_Module_UC.UC_Email_1();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -46,42 +42,16 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.flowLayoutPanel1.SuspendLayout();
+            this.uC_Gmail_31 = new AOOP_EmpowerHER.Gmail_Module_UC.UC_Gmail_3();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.uC_Email_31 = new AOOP_EmpowerHER.Email_Module_UC.UC_Email_3();
+            this.uC_Email_21 = new AOOP_EmpowerHER.Email_Module_UC.UC_Email_2();
+            this.uC_Email_11 = new AOOP_EmpowerHER.Email_Module_UC.UC_Email_1();
+            this.uC_Email_22 = new AOOP_EmpowerHER.Email_Module_UC.UC_Email_2();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Controls.Add(this.uC_Email_31);
-            this.flowLayoutPanel1.Controls.Add(this.uC_Email_21);
-            this.flowLayoutPanel1.Controls.Add(this.uC_Email_11);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(288, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(817, 563);
-            this.flowLayoutPanel1.TabIndex = 23;
-            // 
-            // uC_Email_31
-            // 
-            this.uC_Email_31.Location = new System.Drawing.Point(3, 3);
-            this.uC_Email_31.Name = "uC_Email_31";
-            this.uC_Email_31.Size = new System.Drawing.Size(814, 560);
-            this.uC_Email_31.TabIndex = 2;
-            // 
-            // uC_Email_21
-            // 
-            this.uC_Email_21.Location = new System.Drawing.Point(3, 569);
-            this.uC_Email_21.Name = "uC_Email_21";
-            this.uC_Email_21.Size = new System.Drawing.Size(802, 560);
-            this.uC_Email_21.TabIndex = 1;
-            // 
-            // uC_Email_11
-            // 
-            this.uC_Email_11.Location = new System.Drawing.Point(3, 1135);
-            this.uC_Email_11.Name = "uC_Email_11";
-            this.uC_Email_11.Size = new System.Drawing.Size(793, 560);
-            this.uC_Email_11.TabIndex = 0;
             // 
             // panel3
             // 
@@ -154,6 +124,7 @@
             this.guna2Button7.Size = new System.Drawing.Size(282, 55);
             this.guna2Button7.TabIndex = 22;
             this.guna2Button7.Text = "Email Basics Quiz";
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
             // 
             // guna2Button6
             // 
@@ -226,6 +197,54 @@
             this.label13.TabIndex = 16;
             this.label13.Text = "Basic Computer \r\nSkills";
             // 
+            // uC_Gmail_31
+            // 
+            this.uC_Gmail_31.Location = new System.Drawing.Point(802, 1701);
+            this.uC_Gmail_31.Name = "uC_Gmail_31";
+            this.uC_Gmail_31.Size = new System.Drawing.Size(8, 8);
+            this.uC_Gmail_31.TabIndex = 5;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.uC_Email_31);
+            this.flowLayoutPanel1.Controls.Add(this.uC_Email_21);
+            this.flowLayoutPanel1.Controls.Add(this.uC_Email_11);
+            this.flowLayoutPanel1.Controls.Add(this.uC_Email_22);
+            this.flowLayoutPanel1.Controls.Add(this.uC_Gmail_31);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(288, 0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(817, 563);
+            this.flowLayoutPanel1.TabIndex = 23;
+            // 
+            // uC_Email_31
+            // 
+            this.uC_Email_31.Location = new System.Drawing.Point(3, 3);
+            this.uC_Email_31.Name = "uC_Email_31";
+            this.uC_Email_31.Size = new System.Drawing.Size(814, 560);
+            this.uC_Email_31.TabIndex = 2;
+            // 
+            // uC_Email_21
+            // 
+            this.uC_Email_21.Location = new System.Drawing.Point(3, 569);
+            this.uC_Email_21.Name = "uC_Email_21";
+            this.uC_Email_21.Size = new System.Drawing.Size(802, 560);
+            this.uC_Email_21.TabIndex = 1;
+            // 
+            // uC_Email_11
+            // 
+            this.uC_Email_11.Location = new System.Drawing.Point(3, 1135);
+            this.uC_Email_11.Name = "uC_Email_11";
+            this.uC_Email_11.Size = new System.Drawing.Size(793, 560);
+            this.uC_Email_11.TabIndex = 0;
+            // 
+            // uC_Email_22
+            // 
+            this.uC_Email_22.Location = new System.Drawing.Point(3, 1701);
+            this.uC_Email_22.Name = "uC_Email_22";
+            this.uC_Email_22.Size = new System.Drawing.Size(793, 560);
+            this.uC_Email_22.TabIndex = 3;
+            // 
             // EmB1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -238,16 +257,15 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "E5";
             this.Load += new System.EventHandler(this.EmB1_Load);
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
@@ -258,10 +276,13 @@
         private Guna.UI2.WinForms.Guna2Button btnIntroEmail;
         private System.Windows.Forms.Label label13;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Email_Module_UC.UC_Email_1 uC_Email_11;
-        private Email_Module_UC.UC_Email_2 uC_Email_21;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
-        private Email_Module_UC.UC_Email_3 uC_Email_31;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
+        private Gmail_Module_UC.UC_Gmail_3 uC_Gmail_31;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private Email_Module_UC.UC_Email_3 uC_Email_31;
+        private Email_Module_UC.UC_Email_2 uC_Email_21;
+        private Email_Module_UC.UC_Email_1 uC_Email_11;
+        private Email_Module_UC.UC_Email_2 uC_Email_22;
     }
 }
