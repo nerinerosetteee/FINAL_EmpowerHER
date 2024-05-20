@@ -6,11 +6,12 @@
 </h1>
 
 # :book:  Table of Contents
-* [SDG (Gender Equality)](https://github.com/Seankyron/dental_clinic/blob/main/README.md#four_leaf_clover-sdg-good-health-and-well-being)
-* [About]()
-* [Key Features](https://github.com/Seankyron/dental_clinic/blob/main/README.md#old_key-key-features)
-* [Technologies]()
-* [Video Presentation](https://github.com/Seankyron/dental_clinic/blob/main/README.md#clapper-video-presentation) 
+* [SDG (Gender Equality)](https://github.com/nerinerosetteee/FINAL_EmpowerHER?tab=readme-ov-file#dart-sdg-gender-equality)
+* [About](https://github.com/nerinerosetteee/FINAL_EmpowerHER?tab=readme-ov-file#bulb-about)
+* [Key Features](https://github.com/nerinerosetteee/FINAL_EmpowerHER?tab=readme-ov-file#old_key-key-features)
+* [Technologies](https://github.com/nerinerosetteee/FINAL_EmpowerHER?tab=readme-ov-file#gear-technologies)
+* [Members](https://github.com/nerinerosetteee/FINAL_EmpowerHER?tab=readme-ov-file#busts_in_silhouette-colororangemembers)
+* [Video Presentation](https://github.com/nerinerosetteee/FINAL_EmpowerHER?tab=readme-ov-file#clapper-video-presentation) 
 ---
 
 ## :dart: SDG (Gender Equality)
