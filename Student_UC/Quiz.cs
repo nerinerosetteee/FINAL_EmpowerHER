@@ -17,6 +17,7 @@ namespace AOOP_EmpowerHER.Student_UC
         int score = 0, qNo = 1, qNoMax;
         DataSet ds;
         string username = Properties.Settings.Default.Username;
+        int qSetNo;
 
         public Quiz()
         {
@@ -30,6 +31,10 @@ namespace AOOP_EmpowerHER.Student_UC
 
         private void Quiz_Load(object sender, EventArgs e)
         {
+            Dashboard dashboard = new Dashboard();
+            qSetNo = dashboard.getqSetNo;
+            MessageBox.Show($"Set Number: {qSetNo}");
+
             query = $"SELECT optionA, optionB, optionC, optionD, ans, question FROM Questions WHERE qSet = 1 AND qNo = {qNo}";
             ds = conn.getData(query);
 
@@ -59,6 +64,16 @@ namespace AOOP_EmpowerHER.Student_UC
 
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void OptionC_Click(object sender, EventArgs e)
         {
             OptionA.Checked = false;
@@ -70,9 +85,9 @@ namespace AOOP_EmpowerHER.Student_UC
 
         private void Next_Click(object sender, EventArgs e)
         {
-            if (qNo < qNoMax)
+            if(qNo < qNoMax)
             {
-                if (selectedValue == ans)
+                if(selectedValue == ans)
                 {
                     score++;
                 }
@@ -83,11 +98,12 @@ namespace AOOP_EmpowerHER.Student_UC
             }
             else
             {
+                Next.Text = "Finish";
                 int hasTaken;
+
                 query = $"SELECT COUNT(*) FROM Score WHERE Student_Username = '{username}' AND qset = 1";
                 ds = conn.getData(query);
                 hasTaken = Convert.ToInt32(ds.Tables[0].Rows[0][0]);
-                MessageBox.Show($"User has taken: {hasTaken}");
 
                 if (hasTaken > 0)
                 {
@@ -100,6 +116,9 @@ namespace AOOP_EmpowerHER.Student_UC
                     query = $"INSERT INTO Score (Student_Username, qSet, Score) Values ('{username}', 1, {score})";
                     conn.setData(query, "Okay");
                 }
+                Dashboard dashboard = new Dashboard();
+                dashboard.Show();
+                this.Hide();
             }
         }
 

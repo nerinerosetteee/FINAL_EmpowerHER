@@ -51,7 +51,9 @@
     <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
@@ -73,29 +75,29 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="E1.cs">
+    <Compile Include="Email_Module_UC\EMAIL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="E1.Designer.cs">
-      <DependentUpon>E1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="E2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="E2.Designer.cs">
-      <DependentUpon>E2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="E3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="E3.Designer.cs">
-      <DependentUpon>E3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EMAIL.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EMAIL.Designer.cs">
+    <Compile Include="Email_Module_UC\EMAIL.Designer.cs">
       <DependentUpon>EMAIL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Email_Module_UC\EmB1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Email_Module_UC\EmB1.Designer.cs">
+      <DependentUpon>EmB1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Email_Module_UC\EmB2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Email_Module_UC\EmB2.Designer.cs">
+      <DependentUpon>EmB2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Email_Module_UC\EmB3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Email_Module_UC\EmB3.Designer.cs">
+      <DependentUpon>EmB3.cs</DependentUpon>
     </Compile>
     <Compile Include="Email_Module_UC\UC_Email_1.cs">
       <SubType>UserControl</SubType>
@@ -115,24 +117,6 @@
     <Compile Include="Email_Module_UC\UC_Email_3.Designer.cs">
       <DependentUpon>UC_Email_3.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmB2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EmB2.Designer.cs">
-      <DependentUpon>EmB2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EmB1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EmB1.Designer.cs">
-      <DependentUpon>EmB1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EmB3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EmB3.Designer.cs">
-      <DependentUpon>EmB3.cs</DependentUpon>
-    </Compile>
     <Compile Include="EmpowerHERDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -144,10 +128,28 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmpowerHERDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="EXCEL.cs">
+    <Compile Include="Excel_Module_UC\E1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EXCEL.Designer.cs">
+    <Compile Include="Excel_Module_UC\E1.Designer.cs">
+      <DependentUpon>E1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Excel_Module_UC\E2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel_Module_UC\E2.Designer.cs">
+      <DependentUpon>E2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Excel_Module_UC\E3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel_Module_UC\E3.Designer.cs">
+      <DependentUpon>E3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Excel_Module_UC\EXCEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Excel_Module_UC\EXCEL.Designer.cs">
       <DependentUpon>EXCEL.cs</DependentUpon>
     </Compile>
     <Compile Include="Excel_Module_UC\UC_Excel_1.cs">
@@ -174,28 +176,28 @@
     <Compile Include="ForgotPass.Designer.cs">
       <DependentUpon>ForgotPass.cs</DependentUpon>
     </Compile>
-    <Compile Include="G1.cs">
+    <Compile Include="Gmail_Module_UC\G1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="G1.Designer.cs">
+    <Compile Include="Gmail_Module_UC\G1.Designer.cs">
       <DependentUpon>G1.cs</DependentUpon>
     </Compile>
-    <Compile Include="G2.cs">
+    <Compile Include="Gmail_Module_UC\G2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="G2.Designer.cs">
+    <Compile Include="Gmail_Module_UC\G2.Designer.cs">
       <DependentUpon>G2.cs</DependentUpon>
     </Compile>
-    <Compile Include="G3.cs">
+    <Compile Include="Gmail_Module_UC\G3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="G3.Designer.cs">
+    <Compile Include="Gmail_Module_UC\G3.Designer.cs">
       <DependentUpon>G3.cs</DependentUpon>
     </Compile>
-    <Compile Include="GMAIL.cs">
+    <Compile Include="Gmail_Module_UC\GMAIL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GMAIL.Designer.cs">
+    <Compile Include="Gmail_Module_UC\GMAIL.Designer.cs">
       <DependentUpon>GMAIL.cs</DependentUpon>
     </Compile>
     <Compile Include="Gmail_Module_UC\UC_Gmail_1.cs">
@@ -223,28 +225,28 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="POWERPOINT.cs">
+    <Compile Include="PPT_Module_UC\POWERPOINT.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="POWERPOINT.Designer.cs">
+    <Compile Include="PPT_Module_UC\POWERPOINT.Designer.cs">
       <DependentUpon>POWERPOINT.cs</DependentUpon>
     </Compile>
-    <Compile Include="PPT1.cs">
+    <Compile Include="PPT_Module_UC\PPT1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PPT1.Designer.cs">
+    <Compile Include="PPT_Module_UC\PPT1.Designer.cs">
       <DependentUpon>PPT1.cs</DependentUpon>
     </Compile>
-    <Compile Include="PPT2.cs">
+    <Compile Include="PPT_Module_UC\PPT2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PPT2.Designer.cs">
+    <Compile Include="PPT_Module_UC\PPT2.Designer.cs">
       <DependentUpon>PPT2.cs</DependentUpon>
     </Compile>
-    <Compile Include="PPT3.cs">
+    <Compile Include="PPT_Module_UC\PPT3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PPT3.Designer.cs">
+    <Compile Include="PPT_Module_UC\PPT3.Designer.cs">
       <DependentUpon>PPT3.cs</DependentUpon>
     </Compile>
     <Compile Include="PPT_Module_UC\UC_PPT_1.cs">
@@ -267,10 +269,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Quiz.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Quiz.Designer.cs" />
     <Compile Include="register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -283,41 +281,125 @@
     <Compile Include="SplashForm.Designer.cs">
       <DependentUpon>SplashForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Student_Quizcs.cs">
+    <Compile Include="Student_UC\Quiz.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student_UC\Quiz.Designer.cs">
+      <DependentUpon>Quiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_BCS\BCS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Student_Quizcs.Designer.cs">
-      <DependentUpon>Student_Quizcs.cs</DependentUpon>
+    <Compile Include="UC_BCS\BCS.Designer.cs">
+      <DependentUpon>BCS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_BCS\BCS_LIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UC_BCS\BCS_LIST.Designer.cs">
+      <DependentUpon>BCS_LIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_1.Designer.cs">
+      <DependentUpon>UC_BCS_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_2.Designer.cs">
+      <DependentUpon>UC_BCS_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_3.Designer.cs">
+      <DependentUpon>UC_BCS_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_4.Designer.cs">
+      <DependentUpon>UC_BCS_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_5.Designer.cs">
+      <DependentUpon>UC_BCS_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_6.Designer.cs">
+      <DependentUpon>UC_BCS_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_BCS\UC_BCS_7.Designer.cs">
+      <DependentUpon>UC_BCS_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\IN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UC_IN\IN.Designer.cs">
+      <DependentUpon>IN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\IN_LIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UC_IN\IN_LIST.Designer.cs">
+      <DependentUpon>IN_LIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_1.Designer.cs">
+      <DependentUpon>UC_IN_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_2.Designer.cs">
+      <DependentUpon>UC_IN_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_3.Designer.cs">
+      <DependentUpon>UC_IN_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_4.Designer.cs">
+      <DependentUpon>UC_IN_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_5.Designer.cs">
+      <DependentUpon>UC_IN_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_6.Designer.cs">
+      <DependentUpon>UC_IN_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_IN\UC_IN_7.Designer.cs">
+      <DependentUpon>UC_IN_7.cs</DependentUpon>
     </Compile>
     <Compile Include="VerifiedEmail.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="VerifiedEmail.Designer.cs">
       <DependentUpon>VerifiedEmail.cs</DependentUpon>
-    </Compile>
-    <Compile Include="W1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="W1.Designer.cs">
-      <DependentUpon>W1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="W2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="W2.Designer.cs">
-      <DependentUpon>W2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="W3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="W3.Designer.cs">
-      <DependentUpon>W3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="WORD.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WORD.Designer.cs">
-      <DependentUpon>WORD.cs</DependentUpon>
     </Compile>
     <Compile Include="Word_Module_UC\UC_Word_1.cs">
       <SubType>UserControl</SubType>
@@ -337,20 +419,44 @@
     <Compile Include="Word_Module_UC\UC_Word_3.Designer.cs">
       <DependentUpon>UC_Word_3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Word_Module_UC\W1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Word_Module_UC\W1.Designer.cs">
+      <DependentUpon>W1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Word_Module_UC\W2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Word_Module_UC\W2.Designer.cs">
+      <DependentUpon>W2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Word_Module_UC\W3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Word_Module_UC\W3.Designer.cs">
+      <DependentUpon>W3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Word_Module_UC\WORD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Word_Module_UC\WORD.Designer.cs">
+      <DependentUpon>WORD.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="E1.resx">
-      <DependentUpon>E1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="E2.resx">
-      <DependentUpon>E2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="E3.resx">
-      <DependentUpon>E3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EMAIL.resx">
+    <EmbeddedResource Include="Email_Module_UC\EMAIL.resx">
       <DependentUpon>EMAIL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email_Module_UC\EmB1.resx">
+      <DependentUpon>EmB1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email_Module_UC\EmB2.resx">
+      <DependentUpon>EmB2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email_Module_UC\EmB3.resx">
+      <DependentUpon>EmB3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Email_Module_UC\UC_Email_1.resx">
       <DependentUpon>UC_Email_1.cs</DependentUpon>
@@ -361,16 +467,16 @@
     <EmbeddedResource Include="Email_Module_UC\UC_Email_3.resx">
       <DependentUpon>UC_Email_3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmB2.resx">
-      <DependentUpon>EmB2.cs</DependentUpon>
+    <EmbeddedResource Include="Excel_Module_UC\E1.resx">
+      <DependentUpon>E1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmB1.resx">
-      <DependentUpon>EmB1.cs</DependentUpon>
+    <EmbeddedResource Include="Excel_Module_UC\E2.resx">
+      <DependentUpon>E2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmB3.resx">
-      <DependentUpon>EmB3.cs</DependentUpon>
+    <EmbeddedResource Include="Excel_Module_UC\E3.resx">
+      <DependentUpon>E3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EXCEL.resx">
+    <EmbeddedResource Include="Excel_Module_UC\EXCEL.resx">
       <DependentUpon>EXCEL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Excel_Module_UC\UC_Excel_1.resx">
@@ -385,16 +491,16 @@
     <EmbeddedResource Include="ForgotPass.resx">
       <DependentUpon>ForgotPass.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="G1.resx">
+    <EmbeddedResource Include="Gmail_Module_UC\G1.resx">
       <DependentUpon>G1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="G2.resx">
+    <EmbeddedResource Include="Gmail_Module_UC\G2.resx">
       <DependentUpon>G2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="G3.resx">
+    <EmbeddedResource Include="Gmail_Module_UC\G3.resx">
       <DependentUpon>G3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GMAIL.resx">
+    <EmbeddedResource Include="Gmail_Module_UC\GMAIL.resx">
       <DependentUpon>GMAIL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gmail_Module_UC\UC_Gmail_1.resx">
@@ -409,16 +515,16 @@
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="POWERPOINT.resx">
+    <EmbeddedResource Include="PPT_Module_UC\POWERPOINT.resx">
       <DependentUpon>POWERPOINT.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PPT1.resx">
+    <EmbeddedResource Include="PPT_Module_UC\PPT1.resx">
       <DependentUpon>PPT1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PPT2.resx">
+    <EmbeddedResource Include="PPT_Module_UC\PPT2.resx">
       <DependentUpon>PPT2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PPT3.resx">
+    <EmbeddedResource Include="PPT_Module_UC\PPT3.resx">
       <DependentUpon>PPT3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PPT_Module_UC\UC_PPT_1.resx">
@@ -440,30 +546,71 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Quiz.resx" />
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashForm.resx">
       <DependentUpon>SplashForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Student_Quizcs.resx">
-      <DependentUpon>Student_Quizcs.cs</DependentUpon>
+    <EmbeddedResource Include="Student_UC\Quiz.resx">
+      <DependentUpon>Quiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_BCS\BCS.resx">
+      <DependentUpon>BCS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_BCS\BCS_LIST.resx">
+      <DependentUpon>BCS_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_BCS\UC_BCS_1.resx">
+      <DependentUpon>UC_BCS_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_BCS\UC_BCS_2.resx">
+      <DependentUpon>UC_BCS_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_BCS\UC_BCS_3.resx">
+      <DependentUpon>UC_BCS_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_BCS\UC_BCS_4.resx">
+      <DependentUpon>UC_BCS_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_BCS\UC_BCS_5.resx">
+      <DependentUpon>UC_BCS_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_BCS\UC_BCS_6.resx">
+      <DependentUpon>UC_BCS_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_BCS\UC_BCS_7.resx">
+      <DependentUpon>UC_BCS_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\IN.resx">
+      <DependentUpon>IN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\IN_LIST.resx">
+      <DependentUpon>IN_LIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_1.resx">
+      <DependentUpon>UC_IN_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_2.resx">
+      <DependentUpon>UC_IN_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_3.resx">
+      <DependentUpon>UC_IN_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_4.resx">
+      <DependentUpon>UC_IN_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_5.resx">
+      <DependentUpon>UC_IN_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_6.resx">
+      <DependentUpon>UC_IN_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_IN\UC_IN_7.resx">
+      <DependentUpon>UC_IN_7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VerifiedEmail.resx">
       <DependentUpon>VerifiedEmail.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="W1.resx">
-      <DependentUpon>W1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="W2.resx">
-      <DependentUpon>W2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="W3.resx">
-      <DependentUpon>W3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WORD.resx">
-      <DependentUpon>WORD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Word_Module_UC\UC_Word_1.resx">
       <DependentUpon>UC_Word_1.cs</DependentUpon>
@@ -473,6 +620,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Word_Module_UC\UC_Word_3.resx">
       <DependentUpon>UC_Word_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Word_Module_UC\W1.resx">
+      <DependentUpon>W1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Word_Module_UC\W2.resx">
+      <DependentUpon>W2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Word_Module_UC\W3.resx">
+      <DependentUpon>W3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Word_Module_UC\WORD.resx">
+      <DependentUpon>WORD.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="EmpowerHERDataSet.xsc">
       <DependentUpon>EmpowerHERDataSet.xsd</DependentUpon>
@@ -508,6 +667,26 @@
   <ItemGroup>
     <None Include="Resources\Gemini_Generated_Image_xzceomxzceomxzce.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="EmpowerHER.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmpowerHER_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>EmpowerHER.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

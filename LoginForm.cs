@@ -140,8 +140,8 @@ namespace AOOP_EmpowerHER
 
                     MessageBox.Show("Account successfully logged in.", "Welcome! " + Properties.Settings.Default.Username, MessageBoxButtons.OK);
 
-                    Student_Quizcs quiz = new Student_Quizcs();
-                    quiz.Show();
+                    Dashboard dshbrd = new Dashboard();
+                    dshbrd.Show();
                     this.Hide();
                 }
                 else

@@ -16,7 +16,7 @@ namespace AOOP_EmpowerHER
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new W1());
+            Application.Run(new LoginForm());
         }
     }
 }
