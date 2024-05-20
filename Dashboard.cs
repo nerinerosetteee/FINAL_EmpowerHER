@@ -18,10 +18,10 @@ namespace AOOP_EmpowerHER
         string query;
         DataSet ds;
         string username = Properties.Settings.Default.Username;
-        int bcsProg = 0;
-        int inProg = 0;
-        int mosProg = 0;
-        int ecProg = 0;
+        public static int bcsProg = 0;
+        public static int inProg = 0;
+        public static int mosProg = 0;
+        public static int ecProg = 0;
         public static int qSetNo;
 
         public Dashboard()
@@ -32,6 +32,26 @@ namespace AOOP_EmpowerHER
         public int getqSetNo
         {
             get { return qSetNo; }
+        }
+
+        public int getbcsProg
+        {
+            get { return bcsProg; }
+        }
+
+        public int getinProg
+        {
+            get { return inProg; }
+        }
+
+        public int getmosProg
+        {
+            get { return mosProg; }
+        }
+
+        public int getecProg
+        {
+            get { return ecProg; }
         }
 
         private void guna2ProgressBar1_ValueChanged(object sender, EventArgs e)
@@ -88,6 +108,7 @@ namespace AOOP_EmpowerHER
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
+            qSetNo = 2;
             IN_LIST inlist = new IN_LIST();
             inlist.Show(); this.Hide();
         }

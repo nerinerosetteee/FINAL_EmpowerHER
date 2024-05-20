@@ -28,6 +28,7 @@ namespace AOOP_EmpowerHER
         {
             IN_LIST inlist = new IN_LIST();
             int buttonClicked = inlist.getClick;
+            label1.Text = username;
 
             switch (buttonClicked)
             {
@@ -179,6 +180,17 @@ namespace AOOP_EmpowerHER
             this.Close();
             IN_LIST inav = new IN_LIST();
             inav.Show();
+        }
+
+        private void guna2Button11_Click(object sender, EventArgs e)
+        {
+            quiz1.Visible = true;
+            quiz1.BringToFront();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

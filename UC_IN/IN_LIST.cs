@@ -89,6 +89,23 @@ namespace AOOP_EmpowerHER
 
         private void guna2Button10_Click(object sender, EventArgs e)
         {
+            buttonClick = 8;
+            MessageBox.Show($"{buttonClick}");
+            var in_LIST = new IN();
+            in_LIST.Show(); this.Hide();
+        }
+
+        private void IN_LIST_Load(object sender, EventArgs e)
+        {
+            Dashboard dashboard = new Dashboard();
+            int progress = dashboard.getinProg;
+
+            guna2ProgressBar1.Value = progress * 100 / 7;
+            label2.Text = guna2ProgressBar1.Value.ToString() + "% COMPLETED";
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

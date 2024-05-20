@@ -35,7 +35,7 @@ namespace AOOP_EmpowerHER.Student_UC
             qSetNo = dashboard.getqSetNo;
             MessageBox.Show($"Set Number: {qSetNo}");
 
-            query = $"SELECT optionA, optionB, optionC, optionD, ans, question FROM Questions WHERE qSet = 1 AND qNo = {qNo}";
+            query = $"SELECT optionA, optionB, optionC, optionD, ans, question FROM Questions WHERE qSet = {qSetNo} AND qNo = {qNo}";
             ds = conn.getData(query);
 
             ans = ds.Tables[0].Rows[0][4].ToString();
@@ -45,9 +45,11 @@ namespace AOOP_EmpowerHER.Student_UC
             OptionD.Text = ds.Tables[0].Rows[0][3].ToString();
             Question.Text = ds.Tables[0].Rows[0][5].ToString();
 
-            query = "SELECT COUNT(*) FROM Questions WHERE qSet = 1";
+            query = $"SELECT COUNT(*) FROM Questions WHERE qSet = {qSetNo}";
             ds = conn.getData(query);
             qNoMax = Convert.ToInt32(ds.Tables[0].Rows[0][0]);
+            QuestionNo.Text = qNo.ToString() + " / " + qNoMax.ToString();
+            sc.Text = score.ToString();
         }
 
         private void OptionB_Click(object sender, EventArgs e)
@@ -93,27 +95,32 @@ namespace AOOP_EmpowerHER.Student_UC
                 }
                 MessageBox.Show($"Current Score: {score}");
 
+                if (qNo == qNoMax -1) Next.Text = "Finish";
                 qNo++;
                 Quiz_Load(this, null);
             }
             else
             {
-                Next.Text = "Finish";
+                if (selectedValue == ans)
+                {
+                    score++;
+                }
+                MessageBox.Show($"Current Score: {score}");
                 int hasTaken;
 
-                query = $"SELECT COUNT(*) FROM Score WHERE Student_Username = '{username}' AND qset = 1";
+                query = $"SELECT COUNT(*) FROM Score WHERE Student_Username = '{username}' AND qset = {qSetNo}";
                 ds = conn.getData(query);
                 hasTaken = Convert.ToInt32(ds.Tables[0].Rows[0][0]);
 
                 if (hasTaken > 0)
                 {
-                    query = $"UPDATE Score SET Score = {score} WHERE Student_Username = '{username}' AND qSet = 1";
+                    query = $"UPDATE Score SET Score = {score} WHERE Student_Username = '{username}' AND qSet = {qSetNo}";
                     conn.setData(query, "Okay");
                 }
 
                 else
                 {
-                    query = $"INSERT INTO Score (Student_Username, qSet, Score) Values ('{username}', 1, {score})";
+                    query = $"INSERT INTO Score (Student_Username, qSet, Score) Values ('{username}', {qSetNo}, {score})";
                     conn.setData(query, "Okay");
                 }
                 Dashboard dashboard = new Dashboard();

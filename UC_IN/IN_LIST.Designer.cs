@@ -120,6 +120,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(261, 388);
             this.panel2.TabIndex = 2;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // label2
             // 
@@ -404,6 +405,7 @@
             this.Name = "IN_LIST";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IN_LIST";
+            this.Load += new System.EventHandler(this.IN_LIST_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

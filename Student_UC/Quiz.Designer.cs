@@ -39,7 +39,7 @@
             this.Next = new Guna.UI2.WinForms.Guna2Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.sc = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SuspendLayout();
             // 
             // OptionB
@@ -95,7 +95,7 @@
             this.QuestionNo.BackColor = System.Drawing.Color.Transparent;
             this.QuestionNo.Font = new System.Drawing.Font("Century Schoolbook", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.QuestionNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.QuestionNo.Location = new System.Drawing.Point(306, 33);
+            this.QuestionNo.Location = new System.Drawing.Point(306, 32);
             this.QuestionNo.Name = "QuestionNo";
             this.QuestionNo.Size = new System.Drawing.Size(13, 23);
             this.QuestionNo.TabIndex = 4;
@@ -106,7 +106,7 @@
             // 
             this.Question.BackColor = System.Drawing.Color.Transparent;
             this.Question.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Question.Location = new System.Drawing.Point(294, 62);
+            this.Question.Location = new System.Drawing.Point(116, 62);
             this.Question.Name = "Question";
             this.Question.Size = new System.Drawing.Size(128, 22);
             this.Question.TabIndex = 5;
@@ -171,17 +171,17 @@
             this.label1.Text = "Score:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // guna2HtmlLabel1
+            // sc
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Century Schoolbook", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(531, 33);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(13, 23);
-            this.guna2HtmlLabel1.TabIndex = 38;
-            this.guna2HtmlLabel1.Text = "1";
-            this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
+            this.sc.BackColor = System.Drawing.Color.Transparent;
+            this.sc.Font = new System.Drawing.Font("Century Schoolbook", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.sc.Location = new System.Drawing.Point(531, 33);
+            this.sc.Name = "sc";
+            this.sc.Size = new System.Drawing.Size(13, 23);
+            this.sc.TabIndex = 38;
+            this.sc.Text = "1";
+            this.sc.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
             // 
             // Quiz
             // 
@@ -189,7 +189,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.guna2HtmlLabel1);
+            this.Controls.Add(this.sc);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Next);
             this.Controls.Add(this.Question);
@@ -217,6 +217,6 @@
         private Guna.UI2.WinForms.Guna2Button Next;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel sc;
     }
 }
