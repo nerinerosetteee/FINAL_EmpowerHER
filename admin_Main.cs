@@ -33,6 +33,7 @@ namespace AOOP_EmpowerHER
             uC_AddNewQuestionscs1.Visible = false;
             uC_UpdateQuestions1.Visible = false;
             uC_View_Delete1.Visible = false;
+            uC_ViewScores1.Visible = false;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -55,6 +56,12 @@ namespace AOOP_EmpowerHER
         {
             uC_View_Delete1.Visible=true;
             uC_View_Delete1.BringToFront();
+        }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+            uC_ViewScores1.Visible = true;
+            uC_ViewScores1.BringToFront();
         }
     }
 }

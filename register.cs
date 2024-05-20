@@ -15,6 +15,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using System.Xml.Linq;
 
 
+
 namespace AOOP_EmpowerHER
 {
     public partial class register : Form
@@ -229,6 +230,11 @@ namespace AOOP_EmpowerHER
         }
 
         private void Username_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
         {
 
         }

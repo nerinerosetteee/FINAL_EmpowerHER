@@ -448,6 +448,7 @@
             this.guna2ImageButton1.Size = new System.Drawing.Size(25, 19);
             this.guna2ImageButton1.TabIndex = 38;
             this.guna2ImageButton1.UseTransparentBackground = true;
+            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             this.guna2ImageButton1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton1_MouseDown);
             this.guna2ImageButton1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.guna2ImageButton1_MouseUp);
             // 
