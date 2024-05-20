@@ -45,7 +45,6 @@
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.quiz1 = new AOOP_EmpowerHER.Student_UC.Quiz();
             this.uC_IN_71 = new AOOP_EmpowerHER.UC_IN.UC_IN_7();
             this.uC_IN_61 = new AOOP_EmpowerHER.UC_IN.UC_IN_6();
             this.uC_IN_51 = new AOOP_EmpowerHER.UC_IN.UC_IN_5();
@@ -87,7 +86,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(301, 450);
+            this.panel1.Size = new System.Drawing.Size(301, 563);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -310,7 +309,6 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.quiz1);
             this.panel3.Controls.Add(this.uC_IN_71);
             this.panel3.Controls.Add(this.uC_IN_61);
             this.panel3.Controls.Add(this.uC_IN_51);
@@ -323,14 +321,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(711, 454);
             this.panel3.TabIndex = 0;
-            // 
-            // quiz1
-            // 
-            this.quiz1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
-            this.quiz1.Location = new System.Drawing.Point(29, -2);
-            this.quiz1.Name = "quiz1";
-            this.quiz1.Size = new System.Drawing.Size(705, 463);
-            this.quiz1.TabIndex = 7;
             // 
             // uC_IN_71
             // 
@@ -420,7 +410,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(982, 450);
+            this.ClientSize = new System.Drawing.Size(1105, 563);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -470,6 +460,5 @@
         private UC_IN.UC_IN_6 uC_IN_61;
         private UC_IN.UC_IN_7 uC_IN_71;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Student_UC.Quiz quiz1;
     }
 }

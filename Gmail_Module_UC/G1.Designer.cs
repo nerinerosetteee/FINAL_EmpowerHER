@@ -31,6 +31,10 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(G1));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.quiz_EC1 = new AOOP_EmpowerHER.Student_UC.Quiz_EC();
+            this.uC_Gmail_31 = new AOOP_EmpowerHER.Gmail_Module_UC.UC_Gmail_3();
+            this.uC_Gmail_21 = new AOOP_EmpowerHER.Gmail_Module_UC.UC_Gmail_2();
+            this.uC_Gmail_11 = new AOOP_EmpowerHER.Gmail_Module_UC.UC_Gmail_1();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -42,10 +46,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_Gmail_31 = new AOOP_EmpowerHER.Gmail_Module_UC.UC_Gmail_3();
-            this.uC_Gmail_21 = new AOOP_EmpowerHER.Gmail_Module_UC.UC_Gmail_2();
-            this.uC_Gmail_11 = new AOOP_EmpowerHER.Gmail_Module_UC.UC_Gmail_1();
-            this.quiz_EC1 = new AOOP_EmpowerHER.Student_UC.Quiz_EC();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
@@ -62,6 +62,35 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(824, 563);
             this.flowLayoutPanel1.TabIndex = 25;
+            // 
+            // quiz_EC1
+            // 
+            this.quiz_EC1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
+            this.quiz_EC1.Location = new System.Drawing.Point(3, 3);
+            this.quiz_EC1.Name = "quiz_EC1";
+            this.quiz_EC1.Size = new System.Drawing.Size(821, 560);
+            this.quiz_EC1.TabIndex = 3;
+            // 
+            // uC_Gmail_31
+            // 
+            this.uC_Gmail_31.Location = new System.Drawing.Point(3, 569);
+            this.uC_Gmail_31.Name = "uC_Gmail_31";
+            this.uC_Gmail_31.Size = new System.Drawing.Size(821, 560);
+            this.uC_Gmail_31.TabIndex = 2;
+            // 
+            // uC_Gmail_21
+            // 
+            this.uC_Gmail_21.Location = new System.Drawing.Point(3, 1135);
+            this.uC_Gmail_21.Name = "uC_Gmail_21";
+            this.uC_Gmail_21.Size = new System.Drawing.Size(821, 560);
+            this.uC_Gmail_21.TabIndex = 1;
+            // 
+            // uC_Gmail_11
+            // 
+            this.uC_Gmail_11.Location = new System.Drawing.Point(3, 1701);
+            this.uC_Gmail_11.Name = "uC_Gmail_11";
+            this.uC_Gmail_11.Size = new System.Drawing.Size(809, 560);
+            this.uC_Gmail_11.TabIndex = 0;
             // 
             // panel3
             // 
@@ -206,35 +235,6 @@
             this.label4.Size = new System.Drawing.Size(184, 50);
             this.label4.TabIndex = 16;
             this.label4.Text = "Basic Computer \r\nSkills";
-            // 
-            // uC_Gmail_31
-            // 
-            this.uC_Gmail_31.Location = new System.Drawing.Point(3, 569);
-            this.uC_Gmail_31.Name = "uC_Gmail_31";
-            this.uC_Gmail_31.Size = new System.Drawing.Size(821, 560);
-            this.uC_Gmail_31.TabIndex = 2;
-            // 
-            // uC_Gmail_21
-            // 
-            this.uC_Gmail_21.Location = new System.Drawing.Point(3, 1135);
-            this.uC_Gmail_21.Name = "uC_Gmail_21";
-            this.uC_Gmail_21.Size = new System.Drawing.Size(821, 560);
-            this.uC_Gmail_21.TabIndex = 1;
-            // 
-            // uC_Gmail_11
-            // 
-            this.uC_Gmail_11.Location = new System.Drawing.Point(3, 1701);
-            this.uC_Gmail_11.Name = "uC_Gmail_11";
-            this.uC_Gmail_11.Size = new System.Drawing.Size(809, 560);
-            this.uC_Gmail_11.TabIndex = 0;
-            // 
-            // quiz_EC1
-            // 
-            this.quiz_EC1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
-            this.quiz_EC1.Location = new System.Drawing.Point(3, 3);
-            this.quiz_EC1.Name = "quiz_EC1";
-            this.quiz_EC1.Size = new System.Drawing.Size(821, 560);
-            this.quiz_EC1.TabIndex = 3;
             // 
             // G1
             // 

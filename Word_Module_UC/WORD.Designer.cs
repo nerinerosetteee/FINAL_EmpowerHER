@@ -60,8 +60,8 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.guna2Button2);
             this.panel4.Controls.Add(this.guna2Button1);
+            this.panel4.Controls.Add(this.guna2Button2);
             this.panel4.Location = new System.Drawing.Point(294, 78);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(815, 66);
@@ -76,9 +76,9 @@
             this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(198)))));
             this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.Location = new System.Drawing.Point(247, 17);
+            this.guna2Button2.Location = new System.Drawing.Point(246, 17);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(555, 32);
+            this.guna2Button2.Size = new System.Drawing.Size(262, 32);
             this.guna2Button2.TabIndex = 12;
             this.guna2Button2.Text = "Getting Started";
             // 
@@ -304,7 +304,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1109, 572);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);

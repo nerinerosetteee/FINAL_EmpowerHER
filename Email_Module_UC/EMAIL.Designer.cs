@@ -59,8 +59,8 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.guna2Button2);
             this.panel4.Controls.Add(this.guna2Button1);
+            this.panel4.Controls.Add(this.guna2Button2);
             this.panel4.Location = new System.Drawing.Point(294, 78);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(815, 66);
@@ -77,7 +77,7 @@
             this.guna2Button2.ForeColor = System.Drawing.Color.Black;
             this.guna2Button2.Location = new System.Drawing.Point(247, 18);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(555, 32);
+            this.guna2Button2.Size = new System.Drawing.Size(260, 32);
             this.guna2Button2.TabIndex = 12;
             this.guna2Button2.Text = "Introduction to Email";
             // 
@@ -295,7 +295,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1109, 572);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);

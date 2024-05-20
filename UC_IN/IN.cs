@@ -184,8 +184,8 @@ namespace AOOP_EmpowerHER
 
         private void guna2Button11_Click(object sender, EventArgs e)
         {
-            quiz1.Visible = true;
-            quiz1.BringToFront();
+            //quiz1.Visible = true;
+            //quiz1.BringToFront();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
