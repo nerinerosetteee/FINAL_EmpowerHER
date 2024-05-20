@@ -58,7 +58,7 @@ namespace AOOP_EmpowerHER
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             qSetNo = 7;
-            GMAIL gmail = new GMAIL();
+            GMAIL_LIST gmail = new GMAIL_LIST();
             gmail.Show(); this.Hide();
         }
 

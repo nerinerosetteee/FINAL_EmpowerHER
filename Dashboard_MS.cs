@@ -56,24 +56,21 @@ namespace AOOP_EmpowerHER
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.qSetNo = 3;
-            Properties.Settings.Default.Save();
+            qSetNo = 3;
             WORD word = new WORD();
             word.Show(); this.Hide();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.qSetNo = 4;
-            Properties.Settings.Default.Save();
+            qSetNo = 4;
             POWERPOINT ppt = new POWERPOINT();
             ppt.Show(); this.Hide();
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.qSetNo = 5;
-            Properties.Settings.Default.Save();
+            qSetNo = 5;
             EXCEL exc = new EXCEL();
             exc.Show(); this.Hide();
         }

@@ -45,6 +45,7 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
+            this.quiz1 = new AOOP_EmpowerHER.Student_UC.Quiz();
             this.uC_BCS_71 = new AOOP_EmpowerHER.UC_BCS.UC_BCS_7();
             this.uC_BCS_61 = new AOOP_EmpowerHER.UC_BCS.UC_BCS_6();
             this.uC_BCS_51 = new AOOP_EmpowerHER.UC_BCS.UC_BCS_5();
@@ -58,7 +59,6 @@
             this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse6 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse7 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.quiz1 = new AOOP_EmpowerHER.Student_UC.Quiz();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
@@ -85,7 +85,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(311, 450);
+            this.panel1.Size = new System.Drawing.Size(311, 563);
             this.panel1.TabIndex = 12;
             // 
             // pictureBox1
@@ -315,6 +315,14 @@
             this.panel2.Size = new System.Drawing.Size(718, 450);
             this.panel2.TabIndex = 13;
             // 
+            // quiz1
+            // 
+            this.quiz1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
+            this.quiz1.Location = new System.Drawing.Point(48, -2);
+            this.quiz1.Name = "quiz1";
+            this.quiz1.Size = new System.Drawing.Size(785, 565);
+            this.quiz1.TabIndex = 7;
+            // 
             // uC_BCS_71
             // 
             this.uC_BCS_71.Location = new System.Drawing.Point(11, -2);
@@ -395,19 +403,11 @@
             // 
             this.guna2Elipse7.TargetControl = this.panel2;
             // 
-            // quiz1
-            // 
-            this.quiz1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
-            this.quiz1.Location = new System.Drawing.Point(48, -2);
-            this.quiz1.Name = "quiz1";
-            this.quiz1.Size = new System.Drawing.Size(705, 463);
-            this.quiz1.TabIndex = 7;
-            // 
             // BCS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(982, 450);
+            this.ClientSize = new System.Drawing.Size(1105, 563);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

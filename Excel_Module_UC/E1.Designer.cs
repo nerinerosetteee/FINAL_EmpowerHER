@@ -33,7 +33,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
@@ -42,25 +41,29 @@
             this.label7 = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.quiz_MS1 = new AOOP_EmpowerHER.Student_UC.Quiz_MS();
             this.uC_Excel_31 = new AOOP_EmpowerHER.Excel_Module_UC.UC_Excel_3();
             this.uC_Excel_21 = new AOOP_EmpowerHER.Excel_Module_UC.UC_Excel_2();
             this.uC_Excel_11 = new AOOP_EmpowerHER.Excel_Module_UC.UC_Excel_1();
-            this.quiz_MS1 = new AOOP_EmpowerHER.Student_UC.Quiz_MS();
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
             // 
             this.panel3.AutoScroll = true;
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.panel3.Controls.Add(this.guna2PictureBox2);
             this.panel3.Controls.Add(this.panel1);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.guna2CirclePictureBox1);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.guna2Button7);
             this.panel3.Controls.Add(this.guna2Button6);
@@ -75,6 +78,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.guna2PictureBox1);
             this.panel1.Location = new System.Drawing.Point(285, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(822, 563);
@@ -91,18 +95,6 @@
             this.label2.Size = new System.Drawing.Size(108, 23);
             this.label2.TabIndex = 83;
             this.label2.Text = "Username";
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(72, 24);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(145, 145);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2CirclePictureBox1.TabIndex = 81;
-            this.guna2CirclePictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -221,9 +213,13 @@
             this.panel2.Size = new System.Drawing.Size(799, 560);
             this.panel2.TabIndex = 26;
             // 
-            // guna2Elipse2
+            // quiz_MS1
             // 
-            this.guna2Elipse2.TargetControl = this.panel2;
+            this.quiz_MS1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
+            this.quiz_MS1.Location = new System.Drawing.Point(0, 0);
+            this.quiz_MS1.Name = "quiz_MS1";
+            this.quiz_MS1.Size = new System.Drawing.Size(800, 560);
+            this.quiz_MS1.TabIndex = 3;
             // 
             // uC_Excel_31
             // 
@@ -247,13 +243,35 @@
             this.uC_Excel_11.Size = new System.Drawing.Size(793, 560);
             this.uC_Excel_11.TabIndex = 0;
             // 
-            // quiz_MS1
+            // guna2Elipse2
             // 
-            this.quiz_MS1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
-            this.quiz_MS1.Location = new System.Drawing.Point(0, 0);
-            this.quiz_MS1.Name = "quiz_MS1";
-            this.quiz_MS1.Size = new System.Drawing.Size(800, 560);
-            this.quiz_MS1.TabIndex = 3;
+            this.guna2Elipse2.TargetControl = this.panel2;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(370, 218);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(82, 126);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 85;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(107, 53);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(82, 126);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox2.TabIndex = 85;
+            this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.UseTransparentBackground = true;
             // 
             // E1
             // 
@@ -269,8 +287,10 @@
             this.Load += new System.EventHandler(this.E1_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -283,7 +303,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2Button btnExcelStarted;
         private System.Windows.Forms.Label label7;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private System.Windows.Forms.Panel panel1;
@@ -295,5 +314,7 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
         private Student_UC.Quiz_MS quiz_MS1;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
     }
 }

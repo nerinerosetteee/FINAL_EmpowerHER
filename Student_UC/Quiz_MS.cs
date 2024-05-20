@@ -31,7 +31,7 @@ namespace AOOP_EmpowerHER.Student_UC
 
         private void Quiz_Load(object sender, EventArgs e)
         {
-/*            Dashboard_MS dashboard = new Dashboard_MS();
+            Dashboard_MS dashboard = new Dashboard_MS();
             qSetNo = dashboard.getqSetNo;
 
             query = $"SELECT optionA, optionB, optionC, optionD, ans, question FROM Questions WHERE qSet = {qSetNo} AND qNo = {qNo}";
@@ -48,7 +48,7 @@ namespace AOOP_EmpowerHER.Student_UC
             ds = conn.getData(query);
             qNoMax = Convert.ToInt32(ds.Tables[0].Rows[0][0]);
             QuestionNo.Text = qNo.ToString() + " / " + qNoMax.ToString();
-            sc.Text = score.ToString();                                 */
+            sc.Text = score.ToString();                                 
         }
 
         private void OptionB_Click(object sender, EventArgs e)

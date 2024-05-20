@@ -50,7 +50,9 @@ namespace AOOP_EmpowerHER
             {
                 guna2ProgressBar1.Value = 0;
                 timer1.Stop();
-                this.Hide(); 
+                this.Hide();
+                LoginForm login = new LoginForm();
+                login.Show();
             }
         }
 

@@ -48,16 +48,20 @@
             this.btnAddNewQuestion = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel4 = new System.Windows.Forms.Panel();
-            this.uC_View_Delete1 = new AOOP_EmpowerHER.Admin_UC.UC_View_Delete();
-            this.uC_UpdateQuestions1 = new AOOP_EmpowerHER.Admin_UC.UC_UpdateQuestions();
-            this.uC_AddNewQuestionscs1 = new AOOP_EmpowerHER.Admin_UC.UC_AddNewQuestionscs();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.btnClose = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uC_ViewScores1 = new AOOP_EmpowerHER.Admin_UC.UC_ViewScores();
+            this.uC_View_Delete1 = new AOOP_EmpowerHER.Admin_UC.UC_View_Delete();
+            this.uC_UpdateQuestions1 = new AOOP_EmpowerHER.Admin_UC.UC_UpdateQuestions();
+            this.uC_AddNewQuestionscs1 = new AOOP_EmpowerHER.Admin_UC.UC_AddNewQuestionscs();
+            this.label1 = new System.Windows.Forms.Label();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label5
@@ -100,6 +104,8 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.panel3.Controls.Add(this.guna2PictureBox1);
+            this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.guna2Button8);
             this.panel3.Controls.Add(this.btnViewDelete);
             this.panel3.Controls.Add(this.btnUpdateQuestion);
@@ -123,11 +129,12 @@
             this.guna2Button8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.guna2Button8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button8.ForeColor = System.Drawing.Color.White;
-            this.guna2Button8.Location = new System.Drawing.Point(1, 293);
+            this.guna2Button8.Location = new System.Drawing.Point(1, 313);
             this.guna2Button8.Name = "guna2Button8";
             this.guna2Button8.Size = new System.Drawing.Size(252, 45);
             this.guna2Button8.TabIndex = 4;
             this.guna2Button8.Text = "View Scores";
+            this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
             // 
             // btnViewDelete
             // 
@@ -142,7 +149,7 @@
             this.btnViewDelete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.btnViewDelete.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewDelete.ForeColor = System.Drawing.Color.White;
-            this.btnViewDelete.Location = new System.Drawing.Point(0, 248);
+            this.btnViewDelete.Location = new System.Drawing.Point(0, 268);
             this.btnViewDelete.Name = "btnViewDelete";
             this.btnViewDelete.Size = new System.Drawing.Size(252, 45);
             this.btnViewDelete.TabIndex = 3;
@@ -162,7 +169,7 @@
             this.btnUpdateQuestion.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.btnUpdateQuestion.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateQuestion.ForeColor = System.Drawing.Color.White;
-            this.btnUpdateQuestion.Location = new System.Drawing.Point(0, 203);
+            this.btnUpdateQuestion.Location = new System.Drawing.Point(0, 223);
             this.btnUpdateQuestion.Name = "btnUpdateQuestion";
             this.btnUpdateQuestion.Size = new System.Drawing.Size(252, 45);
             this.btnUpdateQuestion.TabIndex = 2;
@@ -182,7 +189,7 @@
             this.btn_AddQuestion.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.btn_AddQuestion.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_AddQuestion.ForeColor = System.Drawing.Color.White;
-            this.btn_AddQuestion.Location = new System.Drawing.Point(0, 158);
+            this.btn_AddQuestion.Location = new System.Drawing.Point(0, 178);
             this.btn_AddQuestion.Name = "btn_AddQuestion";
             this.btn_AddQuestion.Size = new System.Drawing.Size(252, 45);
             this.btn_AddQuestion.TabIndex = 1;
@@ -348,6 +355,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
+            this.panel4.Controls.Add(this.uC_ViewScores1);
             this.panel4.Controls.Add(this.uC_View_Delete1);
             this.panel4.Controls.Add(this.uC_UpdateQuestions1);
             this.panel4.Controls.Add(this.uC_AddNewQuestionscs1);
@@ -356,32 +364,6 @@
             this.panel4.Size = new System.Drawing.Size(550, 450);
             this.panel4.TabIndex = 34;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
-            // 
-            // uC_View_Delete1
-            // 
-            this.uC_View_Delete1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
-            this.uC_View_Delete1.Location = new System.Drawing.Point(0, 0);
-            this.uC_View_Delete1.Name = "uC_View_Delete1";
-            this.uC_View_Delete1.Size = new System.Drawing.Size(550, 450);
-            this.uC_View_Delete1.TabIndex = 2;
-            this.uC_View_Delete1.Load += new System.EventHandler(this.uC_View_Delete1_Load);
-            // 
-            // uC_UpdateQuestions1
-            // 
-            this.uC_UpdateQuestions1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
-            this.uC_UpdateQuestions1.Location = new System.Drawing.Point(0, 0);
-            this.uC_UpdateQuestions1.Name = "uC_UpdateQuestions1";
-            this.uC_UpdateQuestions1.Size = new System.Drawing.Size(550, 450);
-            this.uC_UpdateQuestions1.TabIndex = 1;
-            // 
-            // uC_AddNewQuestionscs1
-            // 
-            this.uC_AddNewQuestionscs1.AutoSize = true;
-            this.uC_AddNewQuestionscs1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
-            this.uC_AddNewQuestionscs1.Location = new System.Drawing.Point(0, 0);
-            this.uC_AddNewQuestionscs1.Name = "uC_AddNewQuestionscs1";
-            this.uC_AddNewQuestionscs1.Size = new System.Drawing.Size(550, 450);
-            this.uC_AddNewQuestionscs1.TabIndex = 0;
             // 
             // guna2Elipse2
             // 
@@ -409,6 +391,65 @@
             // 
             this.guna2Elipse3.TargetControl = this.panel4;
             // 
+            // uC_ViewScores1
+            // 
+            this.uC_ViewScores1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
+            this.uC_ViewScores1.Location = new System.Drawing.Point(0, 0);
+            this.uC_ViewScores1.Name = "uC_ViewScores1";
+            this.uC_ViewScores1.Size = new System.Drawing.Size(550, 450);
+            this.uC_ViewScores1.TabIndex = 3;
+            // 
+            // uC_View_Delete1
+            // 
+            this.uC_View_Delete1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
+            this.uC_View_Delete1.Location = new System.Drawing.Point(0, 0);
+            this.uC_View_Delete1.Name = "uC_View_Delete1";
+            this.uC_View_Delete1.Size = new System.Drawing.Size(550, 450);
+            this.uC_View_Delete1.TabIndex = 2;
+            this.uC_View_Delete1.Load += new System.EventHandler(this.uC_View_Delete1_Load);
+            // 
+            // uC_UpdateQuestions1
+            // 
+            this.uC_UpdateQuestions1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
+            this.uC_UpdateQuestions1.Location = new System.Drawing.Point(0, 0);
+            this.uC_UpdateQuestions1.Name = "uC_UpdateQuestions1";
+            this.uC_UpdateQuestions1.Size = new System.Drawing.Size(550, 450);
+            this.uC_UpdateQuestions1.TabIndex = 1;
+            // 
+            // uC_AddNewQuestionscs1
+            // 
+            this.uC_AddNewQuestionscs1.AutoSize = true;
+            this.uC_AddNewQuestionscs1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
+            this.uC_AddNewQuestionscs1.Location = new System.Drawing.Point(0, 0);
+            this.uC_AddNewQuestionscs1.Name = "uC_AddNewQuestionscs1";
+            this.uC_AddNewQuestionscs1.Size = new System.Drawing.Size(550, 450);
+            this.uC_AddNewQuestionscs1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.CausesValidation = false;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
+            this.label1.Location = new System.Drawing.Point(84, 145);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(74, 23);
+            this.label1.TabIndex = 83;
+            this.label1.Text = "Admin";
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(85, 16);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(82, 126);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 84;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
             // admin_Main
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -425,8 +466,10 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -457,5 +500,8 @@
         private Admin_UC.UC_UpdateQuestions uC_UpdateQuestions1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
         private Admin_UC.UC_View_Delete uC_View_Delete1;
+        private Admin_UC.UC_ViewScores uC_ViewScores1;
+        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }

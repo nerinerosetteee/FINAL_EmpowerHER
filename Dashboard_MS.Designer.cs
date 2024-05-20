@@ -140,6 +140,8 @@
             this.wordProgBar.Location = new System.Drawing.Point(5, 218);
             this.wordProgBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.wordProgBar.Name = "wordProgBar";
+            this.wordProgBar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.wordProgBar.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.wordProgBar.Size = new System.Drawing.Size(220, 10);
             this.wordProgBar.TabIndex = 2;
             this.wordProgBar.Text = "guna2ProgressBar1";
@@ -202,6 +204,8 @@
             this.pptProgBar.Location = new System.Drawing.Point(5, 218);
             this.pptProgBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pptProgBar.Name = "pptProgBar";
+            this.pptProgBar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.pptProgBar.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.pptProgBar.Size = new System.Drawing.Size(220, 10);
             this.pptProgBar.TabIndex = 2;
             this.pptProgBar.Text = "guna2ProgressBar2";
@@ -264,6 +268,8 @@
             this.excProgBar.Location = new System.Drawing.Point(5, 218);
             this.excProgBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.excProgBar.Name = "excProgBar";
+            this.excProgBar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
+            this.excProgBar.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.excProgBar.Size = new System.Drawing.Size(220, 10);
             this.excProgBar.TabIndex = 2;
             this.excProgBar.Text = "guna2ProgressBar3";
@@ -309,6 +315,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Dashboard_MS";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard_MS";
             this.Load += new System.EventHandler(this.Dashboard_MS_Load);
             this.panel3.ResumeLayout(false);
