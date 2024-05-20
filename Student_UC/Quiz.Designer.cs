@@ -51,9 +51,9 @@
             this.OptionB.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.OptionB.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.OptionB.ForeColor = System.Drawing.Color.White;
-            this.OptionB.Location = new System.Drawing.Point(106, 280);
+            this.OptionB.Location = new System.Drawing.Point(106, 333);
             this.OptionB.Name = "OptionB";
-            this.OptionB.Size = new System.Drawing.Size(219, 119);
+            this.OptionB.Size = new System.Drawing.Size(271, 179);
             this.OptionB.TabIndex = 1;
             this.OptionB.Text = "guna2Button2";
             this.OptionB.Click += new System.EventHandler(this.OptionB_Click);
@@ -67,9 +67,9 @@
             this.OptionC.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.OptionC.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.OptionC.ForeColor = System.Drawing.Color.White;
-            this.OptionC.Location = new System.Drawing.Point(391, 138);
+            this.OptionC.Location = new System.Drawing.Point(409, 127);
             this.OptionC.Name = "OptionC";
-            this.OptionC.Size = new System.Drawing.Size(219, 119);
+            this.OptionC.Size = new System.Drawing.Size(271, 179);
             this.OptionC.TabIndex = 2;
             this.OptionC.Text = "guna2Button3";
             this.OptionC.Click += new System.EventHandler(this.OptionC_Click);
@@ -83,9 +83,9 @@
             this.OptionD.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.OptionD.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.OptionD.ForeColor = System.Drawing.Color.White;
-            this.OptionD.Location = new System.Drawing.Point(391, 280);
+            this.OptionD.Location = new System.Drawing.Point(409, 333);
             this.OptionD.Name = "OptionD";
-            this.OptionD.Size = new System.Drawing.Size(219, 119);
+            this.OptionD.Size = new System.Drawing.Size(271, 179);
             this.OptionD.TabIndex = 3;
             this.OptionD.Text = "guna2Button4";
             this.OptionD.Click += new System.EventHandler(this.OptionD_Click);
@@ -126,9 +126,9 @@
             this.OptionA.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.OptionA.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.OptionA.ForeColor = System.Drawing.Color.White;
-            this.OptionA.Location = new System.Drawing.Point(106, 138);
+            this.OptionA.Location = new System.Drawing.Point(106, 127);
             this.OptionA.Name = "OptionA";
-            this.OptionA.Size = new System.Drawing.Size(219, 119);
+            this.OptionA.Size = new System.Drawing.Size(271, 179);
             this.OptionA.TabIndex = 0;
             this.OptionA.Text = "guna2Button1";
             this.OptionA.Click += new System.EventHandler(this.OptionA_Click);
@@ -143,7 +143,8 @@
             this.Next.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(111)))), ((int)(((byte)(146)))));
             this.Next.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Next.ForeColor = System.Drawing.Color.White;
-            this.Next.Location = new System.Drawing.Point(303, 415);
+            this.Next.IndicateFocus = true;
+            this.Next.Location = new System.Drawing.Point(671, 522);
             this.Next.Name = "Next";
             this.Next.Size = new System.Drawing.Size(109, 23);
             this.Next.TabIndex = 6;
@@ -199,7 +200,7 @@
             this.Controls.Add(this.OptionB);
             this.Controls.Add(this.OptionA);
             this.Name = "Quiz";
-            this.Size = new System.Drawing.Size(705, 463);
+            this.Size = new System.Drawing.Size(800, 560);
             this.Load += new System.EventHandler(this.Quiz_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

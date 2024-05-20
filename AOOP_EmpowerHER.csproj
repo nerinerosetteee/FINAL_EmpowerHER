@@ -293,6 +293,18 @@
     <Compile Include="SplashForm.Designer.cs">
       <DependentUpon>SplashForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Student_UC\Quiz_MS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student_UC\Quiz_MS.Designer.cs">
+      <DependentUpon>Quiz_MS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_UC\Quiz_EC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student_UC\Quiz_EC.Designer.cs">
+      <DependentUpon>Quiz_EC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Student_UC\Quiz.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -569,6 +581,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SplashForm.resx">
       <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_UC\Quiz_MS.resx">
+      <DependentUpon>Quiz_MS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_UC\Quiz_EC.resx">
+      <DependentUpon>Quiz_EC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Student_UC\Quiz.resx">
       <DependentUpon>Quiz.cs</DependentUpon>

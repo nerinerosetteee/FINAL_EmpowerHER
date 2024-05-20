@@ -50,16 +50,14 @@ namespace AOOP_EmpowerHER
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.qSetNo = 6;
-            Properties.Settings.Default.Save();
+            qSetNo = 6;
             EMAIL email = new EMAIL();
             email.Show(); this.Hide();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.qSetNo = 7;
-            Properties.Settings.Default.Save();
+            qSetNo = 7;
             GMAIL gmail = new GMAIL();
             gmail.Show(); this.Hide();
         }

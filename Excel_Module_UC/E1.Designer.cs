@@ -42,12 +42,13 @@
             this.label7 = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
-            this.uC_Excel_31 = new AOOP_EmpowerHER.Excel_Module_UC.UC_Excel_3();
-            this.uC_Excel_21 = new AOOP_EmpowerHER.Excel_Module_UC.UC_Excel_2();
-            this.uC_Excel_11 = new AOOP_EmpowerHER.Excel_Module_UC.UC_Excel_1();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uC_Excel_31 = new AOOP_EmpowerHER.Excel_Module_UC.UC_Excel_3();
+            this.uC_Excel_21 = new AOOP_EmpowerHER.Excel_Module_UC.UC_Excel_2();
+            this.uC_Excel_11 = new AOOP_EmpowerHER.Excel_Module_UC.UC_Excel_1();
+            this.quiz_MS1 = new AOOP_EmpowerHER.Student_UC.Quiz_MS();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -132,6 +133,7 @@
             this.guna2Button7.Size = new System.Drawing.Size(281, 55);
             this.guna2Button7.TabIndex = 22;
             this.guna2Button7.Text = "Excel Quiz";
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
             // 
             // guna2Button6
             // 
@@ -210,6 +212,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.quiz_MS1);
             this.panel2.Controls.Add(this.uC_Excel_31);
             this.panel2.Controls.Add(this.uC_Excel_21);
             this.panel2.Controls.Add(this.uC_Excel_11);
@@ -217,6 +220,10 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(799, 560);
             this.panel2.TabIndex = 26;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this.panel2;
             // 
             // uC_Excel_31
             // 
@@ -240,9 +247,13 @@
             this.uC_Excel_11.Size = new System.Drawing.Size(793, 560);
             this.uC_Excel_11.TabIndex = 0;
             // 
-            // guna2Elipse2
+            // quiz_MS1
             // 
-            this.guna2Elipse2.TargetControl = this.panel2;
+            this.quiz_MS1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
+            this.quiz_MS1.Location = new System.Drawing.Point(0, 0);
+            this.quiz_MS1.Name = "quiz_MS1";
+            this.quiz_MS1.Size = new System.Drawing.Size(800, 560);
+            this.quiz_MS1.TabIndex = 3;
             // 
             // E1
             // 
@@ -283,5 +294,6 @@
         private Excel_Module_UC.UC_Excel_3 uC_Excel_31;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
+        private Student_UC.Quiz_MS quiz_MS1;
     }
 }

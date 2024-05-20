@@ -45,6 +45,7 @@
             this.uC_Word_11 = new AOOP_EmpowerHER.Word_Module_UC.UC_Word_1();
             this.uC_Word_31 = new AOOP_EmpowerHER.Word_Module_UC.UC_Word_3();
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.quiz_MS1 = new AOOP_EmpowerHER.Student_UC.Quiz_MS();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -120,6 +121,7 @@
             this.guna2Button9.Size = new System.Drawing.Size(287, 55);
             this.guna2Button9.TabIndex = 24;
             this.guna2Button9.Text = "Word Quiz";
+            this.guna2Button9.Click += new System.EventHandler(this.guna2Button9_Click);
             // 
             // guna2Button6
             // 
@@ -213,11 +215,20 @@
             this.uC_Word_31.Size = new System.Drawing.Size(819, 560);
             this.uC_Word_31.TabIndex = 35;
             // 
+            // quiz_MS1
+            // 
+            this.quiz_MS1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
+            this.quiz_MS1.Location = new System.Drawing.Point(289, 0);
+            this.quiz_MS1.Name = "quiz_MS1";
+            this.quiz_MS1.Size = new System.Drawing.Size(816, 560);
+            this.quiz_MS1.TabIndex = 36;
+            // 
             // W1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1105, 563);
+            this.Controls.Add(this.quiz_MS1);
             this.Controls.Add(this.uC_Word_31);
             this.Controls.Add(this.uC_Word_21);
             this.Controls.Add(this.uC_Word_11);
@@ -250,5 +261,6 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private Word_Module_UC.UC_Word_3 uC_Word_31;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
+        private Student_UC.Quiz_MS quiz_MS1;
     }
 }

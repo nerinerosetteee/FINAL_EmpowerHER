@@ -97,8 +97,9 @@ namespace AOOP_EmpowerHER
         }
 
         private void guna2Button7_Click(object sender, EventArgs e)
-        { 
-
+        {
+            quiz_EC1.Visible = true;
+            quiz_EC1.BringToFront();
         }
     }
 }

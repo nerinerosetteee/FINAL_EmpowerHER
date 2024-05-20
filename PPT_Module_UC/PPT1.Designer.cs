@@ -45,6 +45,7 @@
             this.uC_PPT_31 = new AOOP_EmpowerHER.PPT_Module_UC.UC_PPT_3();
             this.uC_PPT_21 = new AOOP_EmpowerHER.PPT_Module_UC.UC_PPT_2();
             this.uC_PPT_11 = new AOOP_EmpowerHER.PPT_Module_UC.UC_PPT_1();
+            this.quiz_MS1 = new AOOP_EmpowerHER.Student_UC.Quiz_MS();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -120,6 +121,7 @@
             this.guna2Button9.Size = new System.Drawing.Size(287, 55);
             this.guna2Button9.TabIndex = 24;
             this.guna2Button9.Text = "PowerPoint Quiz";
+            this.guna2Button9.Click += new System.EventHandler(this.guna2Button9_Click);
             // 
             // guna2Button6
             // 
@@ -213,11 +215,20 @@
             this.uC_PPT_11.Size = new System.Drawing.Size(808, 560);
             this.uC_PPT_11.TabIndex = 28;
             // 
+            // quiz_MS1
+            // 
+            this.quiz_MS1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
+            this.quiz_MS1.Location = new System.Drawing.Point(287, 0);
+            this.quiz_MS1.Name = "quiz_MS1";
+            this.quiz_MS1.Size = new System.Drawing.Size(814, 560);
+            this.quiz_MS1.TabIndex = 31;
+            // 
             // PPT1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1105, 563);
+            this.Controls.Add(this.quiz_MS1);
             this.Controls.Add(this.uC_PPT_31);
             this.Controls.Add(this.uC_PPT_21);
             this.Controls.Add(this.uC_PPT_11);
@@ -250,5 +261,6 @@
         private PPT_Module_UC.UC_PPT_2 uC_PPT_21;
         private PPT_Module_UC.UC_PPT_3 uC_PPT_31;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
+        private Student_UC.Quiz_MS quiz_MS1;
     }
 }

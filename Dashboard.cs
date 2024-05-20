@@ -93,9 +93,9 @@ namespace AOOP_EmpowerHER
             BCSProg.Text = bcsProgBar.Value.ToString() + "% COMPLETED";
             inProgBar.Value = inProg * 100 / 7;
             INProg.Text = inProgBar.Value.ToString() + "% COMPLETED";
-            mosProgBar.Value = mosProg * 100 / 7;
+            mosProgBar.Value = mosProg * 100 / 9;
             MOSProg.Text = mosProgBar.Value.ToString() + "% COMPLETED";
-            ecProgBar.Value = ecProg * 100 / 7;
+            ecProgBar.Value = ecProg * 100 / 6;
             ECProg.Text = ecProgBar.Value.ToString() + "% COMPLETED";
         }
 
@@ -115,14 +115,12 @@ namespace AOOP_EmpowerHER
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            qSetNo = Properties.Settings.Default.qSetNo;
             Dashboard_MS dms = new Dashboard_MS();
             dms.Show(); this.Hide();
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            qSetNo = Properties.Settings.Default.qSetNo;
             Dashbaord_EC dec = new Dashbaord_EC();
             dec.Show(); this.Hide();
         }

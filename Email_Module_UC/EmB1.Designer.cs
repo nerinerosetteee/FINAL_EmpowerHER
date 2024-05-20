@@ -42,12 +42,13 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_Gmail_31 = new AOOP_EmpowerHER.Gmail_Module_UC.UC_Gmail_3();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.quiz_EC1 = new AOOP_EmpowerHER.Student_UC.Quiz_EC();
             this.uC_Email_31 = new AOOP_EmpowerHER.Email_Module_UC.UC_Email_3();
             this.uC_Email_21 = new AOOP_EmpowerHER.Email_Module_UC.UC_Email_2();
             this.uC_Email_11 = new AOOP_EmpowerHER.Email_Module_UC.UC_Email_1();
             this.uC_Email_22 = new AOOP_EmpowerHER.Email_Module_UC.UC_Email_2();
+            this.uC_Gmail_31 = new AOOP_EmpowerHER.Gmail_Module_UC.UC_Gmail_3();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -197,15 +198,9 @@
             this.label13.TabIndex = 16;
             this.label13.Text = "Basic Computer \r\nSkills";
             // 
-            // uC_Gmail_31
-            // 
-            this.uC_Gmail_31.Location = new System.Drawing.Point(802, 1701);
-            this.uC_Gmail_31.Name = "uC_Gmail_31";
-            this.uC_Gmail_31.Size = new System.Drawing.Size(8, 8);
-            this.uC_Gmail_31.TabIndex = 5;
-            // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.Controls.Add(this.quiz_EC1);
             this.flowLayoutPanel1.Controls.Add(this.uC_Email_31);
             this.flowLayoutPanel1.Controls.Add(this.uC_Email_21);
             this.flowLayoutPanel1.Controls.Add(this.uC_Email_11);
@@ -217,33 +212,48 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(817, 563);
             this.flowLayoutPanel1.TabIndex = 23;
             // 
+            // quiz_EC1
+            // 
+            this.quiz_EC1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(236)))));
+            this.quiz_EC1.Location = new System.Drawing.Point(3, 3);
+            this.quiz_EC1.Name = "quiz_EC1";
+            this.quiz_EC1.Size = new System.Drawing.Size(802, 560);
+            this.quiz_EC1.TabIndex = 6;
+            // 
             // uC_Email_31
             // 
-            this.uC_Email_31.Location = new System.Drawing.Point(3, 3);
+            this.uC_Email_31.Location = new System.Drawing.Point(3, 569);
             this.uC_Email_31.Name = "uC_Email_31";
             this.uC_Email_31.Size = new System.Drawing.Size(814, 560);
             this.uC_Email_31.TabIndex = 2;
             // 
             // uC_Email_21
             // 
-            this.uC_Email_21.Location = new System.Drawing.Point(3, 569);
+            this.uC_Email_21.Location = new System.Drawing.Point(3, 1135);
             this.uC_Email_21.Name = "uC_Email_21";
             this.uC_Email_21.Size = new System.Drawing.Size(802, 560);
             this.uC_Email_21.TabIndex = 1;
             // 
             // uC_Email_11
             // 
-            this.uC_Email_11.Location = new System.Drawing.Point(3, 1135);
+            this.uC_Email_11.Location = new System.Drawing.Point(3, 1701);
             this.uC_Email_11.Name = "uC_Email_11";
             this.uC_Email_11.Size = new System.Drawing.Size(793, 560);
             this.uC_Email_11.TabIndex = 0;
             // 
             // uC_Email_22
             // 
-            this.uC_Email_22.Location = new System.Drawing.Point(3, 1701);
+            this.uC_Email_22.Location = new System.Drawing.Point(3, 2267);
             this.uC_Email_22.Name = "uC_Email_22";
             this.uC_Email_22.Size = new System.Drawing.Size(793, 560);
             this.uC_Email_22.TabIndex = 3;
+            // 
+            // uC_Gmail_31
+            // 
+            this.uC_Gmail_31.Location = new System.Drawing.Point(802, 2267);
+            this.uC_Gmail_31.Name = "uC_Gmail_31";
+            this.uC_Gmail_31.Size = new System.Drawing.Size(8, 8);
+            this.uC_Gmail_31.TabIndex = 5;
             // 
             // EmB1
             // 
@@ -284,5 +294,6 @@
         private Email_Module_UC.UC_Email_2 uC_Email_21;
         private Email_Module_UC.UC_Email_1 uC_Email_11;
         private Email_Module_UC.UC_Email_2 uC_Email_22;
+        private Student_UC.Quiz_EC quiz_EC1;
     }
 }
