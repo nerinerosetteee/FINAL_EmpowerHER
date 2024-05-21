@@ -8,6 +8,7 @@
 # :book:  Table of Contents
 * [SDG (Gender Equality)](https://github.com/nerinerosetteee/FINAL_EmpowerHER?tab=readme-ov-file#dart-sdg-gender-equality)
 * [About](https://github.com/nerinerosetteee/FINAL_EmpowerHER?tab=readme-ov-file#bulb-about)
+* [Objectives](https://github.com/nerinerosetteee/FINAL_EmpowerHER?tab=readme-ov-file#bobjectives)
 * [Key Features](https://github.com/nerinerosetteee/FINAL_EmpowerHER?tab=readme-ov-file#old_key-key-features)
 * [Technologies](https://github.com/nerinerosetteee/FINAL_EmpowerHER?tab=readme-ov-file#gear-technologies)
 * [Members](https://github.com/nerinerosetteee/FINAL_EmpowerHER?tab=readme-ov-file#busts_in_silhouette-colororangemembers)
@@ -22,6 +23,14 @@
 ## :bulb: About
 <p align="justify">
 &nbsp;&nbsp;&nbsp;<strong>EmpowerHER</strong> is an educational platform designed specifically for single mothers, aiming to enhance their digital literacy skills and provide opportunities for better employment.
+</p>
+
+## :Objectives
+<p align="justify">
+&nbsp;&nbsp;&nbsp;
+Provide interactive digital literacy courses covering essential topics such as basic computer skills, internet usage, and software applications.
+Offer assessments  unto gauge understanding and track progress as you start another module
+Foster a sense of empowerment and confidence through skill development.
 </p>
 
 ## :old_key: Key Features
