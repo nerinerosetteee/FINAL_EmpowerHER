@@ -27,8 +27,8 @@
 
 ## Objectives
 <p align="justify">
-&nbsp;&nbsp;&nbsp;1. Provide interactive digital literacy courses covering essential topics such as basic computer skills, internet usage, and software applications./n
-2. Offer assessments  unto gauge understanding and track progress as you start another module./n
+&nbsp;&nbsp;&nbsp;1. Provide interactive digital literacy courses covering essential topics such as basic computer skills, internet usage, and software applications.\n
+2. Offer assessments  unto gauge understanding and track progress as you start another module.\n
 3. Foster a sense of empowerment and confidence through skill development.
 </p>
 
